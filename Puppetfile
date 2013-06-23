@@ -13,27 +13,26 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.1.0"
+github "boxen", "2.3.3"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",    "1.0.0"
-github "gcc",        "1.0.0"
-github "git",        "1.2.2"
+github "gcc",        "2.0.0"
+github "git",        "1.2.4"
 github "homebrew",   "1.1.2"
 github "hub",        "1.0.0"
 github "inifile",    "0.9.0", :repo => "cprice-puppet/puppetlabs-inifile"
-github "nginx",      "1.4.0"
-github "nodejs",     "2.2.0"
-github "repository", "2.0.2"
-github "ruby",       "4.1.0"
-github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
+github "nginx",      "1.4.2"
+github "nodejs",     "3.2.4"
+github "repository", "2.2.0"
+github "ruby",       "6.0.0"
+github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "sourcetree", "1.0.0"
 github "osx",        "1.3.0"
 github "xquartz",        "1.1.0"
 github "pkgconfig", "1.0.0"
@@ -70,4 +69,21 @@ github "adium", "1.1.1"
 github "google_notifier", "1.0.1"
 github "secondbar", "1.0.1"
 github "skype", "1.0.2"
-
+github "libreoffice", "4.0.3",  :repo => "jasonamyers/puppet-libreoffice"
+github "sequelpro",  "1.0.1",  :repo => "huahang/puppet-sequelpro"
+github "littlesnitch",  "0.0.1",  :repo => "andy-shea/puppet-little-snitch"
+#github "gpg2", "0.0.1",  :repo => "ericfode/puppet-gpg2"
+github "htop",  "1.0.0",  :repo => "skottler/puppet-htop"
+github "heroku_toolbelt", "1.2.0", :repo => "dieterdemeyer/puppet-heroku_toolbelt"
+github "googledrive", "1.0.2", :repo => "gblair/puppet-googledrive"
+github "sourcetree", "1.0.1", :repo => "ncarroll/puppet-sourcetree"
+github "lastpass", "0.0.2", :repo => "dieterdemeyer/puppet-lastpass"
+github "android_studio", "1.0.0", :repo => "ngs/puppet-android_studio"
+github "pgadmin3", "0.0.3", :repo => "dennisreimann/puppet-pgadmin3"
+github "pgadmin3", "0.0.3", :repo => "dennisreimann/puppet-pgadmin3"
+github "caffeine", "1.0.0"
+github "gimp", "1.0.0", :repo => "fschwiet/puppet-gimp"
+github "eclipse-plugin-egit", "0.0.5", :repo => "steinim/puppet-eclipse-plugin-egit"
+github "xtrafinder", "1.0.1", :repo => "dieterdemeyer/puppet-xtrafinder"
+github "quicksilver", "1.0.1", :repo => "dieterdemeyer/puppet-quicksilver"
+github "archiver", "1.0.0", :repo => "singuerinc/puppet-archiver"

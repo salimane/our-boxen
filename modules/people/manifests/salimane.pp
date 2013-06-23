@@ -22,7 +22,6 @@ class people::salimane {
   include sysctl::ipforwarding
   include screen
   include graphviz
-#  include sourcetree
   include dropbox
   include vagrant
   include spotify
@@ -42,7 +41,7 @@ class people::salimane {
   class { 'ruby::global':
     version => $ruby_version
   }
-  
+
   ruby::gem { "puppet for ${version}":
     gem     => 'puppet',
     ruby    => $ruby_version,
@@ -51,8 +50,8 @@ class people::salimane {
   ruby::gem { "librarian-puppet for ${version}":
     gem     => 'librarian-puppet',
     ruby    => $ruby_version,
-  } 
-  
+  }
+
   $home     = "/Users/${::luser}"
   $src       = "${home}/src"
   $dotfiles = "${src}/dotfiles"
@@ -61,4 +60,24 @@ class people::salimane {
     source  => 'salimane/dotfiles',
     require => File[$src]
   }
+
+  include libreoffice
+  include littlesnitch
+  include sequelpro
+  #include gpg2
+  include htop
+  include heroku_toolbelt
+  include googledrive
+  include sourcetree
+  class { 'lastpass':
+    require => [Class['chrome'], Class['firefox']]
+  }
+  include android_studio
+  include pgadmin3
+  include caffeine
+  include gimp
+  include eclipse-plugin-egit
+  include xtrafinder
+  include quicksilver
+  include archiver
 }
