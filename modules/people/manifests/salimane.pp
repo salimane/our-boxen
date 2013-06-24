@@ -8,8 +8,37 @@ class people::salimane {
   include chrome::dev
   include iterm2::dev
   include sublime_text_2
-  sublime_text_2::package { 'Emmet':
-    source => 'sergeche/emmet-sublime'
+  sublime_text_2::package { 
+    'Emmet':
+      source => 'sergeche/emmet-sublime';
+    'SublimeRailsNav':
+      source => 'noklesta/SublimeRailsNav';
+    'sublime-gem-browser':
+      source => 'NaN1488/sublime-gem-browser';
+    'BracketHighlighter':
+      source => 'facelessuser/BracketHighlighter';
+    'DocBlockr':
+      source => 'spadgos/sublime-jsdocs';
+    'SideBarEnhancements':
+      source => 'titoBouzout/SideBarEnhancements';
+    'SublimeCodeIntel':
+      source => 'SublimeCodeIntel/SublimeCodeIntel';
+    'SublimeLinter/SublimeLinter':
+      source => 'SublimeLinter/SublimeLinter';
+    'eddorre/SublimeERB':
+      source => 'eddorre/SublimeERB';
+    'SublimeText2RailsRelatedFiles':
+      source => 'luqman/SublimeText2RailsRelatedFiles';
+    'Rspec':
+      source => 'SublimeText/RSpec';
+    'Guard':
+      source => 'cyphactor/sublime_guard';
+    'Haml':
+      source => 'phuibonhoa/handcrafted-haml-textmate-bundle';
+    'Sass':
+      source => 'nathos/sass-textmate-bundle';
+    'Coffescript':
+      source => 'Xavura/CoffeeScript-Sublime-Plugin';
   }
   include python
   include appcleaner
