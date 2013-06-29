@@ -4,13 +4,15 @@ class people::salimane {
   include virtualbox
   include java
   include heroku
-  include eclipse::java
+ # include eclipse::java
   include chrome::dev
   include iterm2::dev
   include sublime_text_2
   sublime_text_2::package { 
     'Emmet':
       source => 'sergeche/emmet-sublime';
+    'Alignment':
+      source => 'wbond/sublime_alignment';
     'SublimeRailsNav':
       source => 'noklesta/SublimeRailsNav';
     'sublime-gem-browser':
@@ -39,6 +41,12 @@ class people::salimane {
       source => 'nathos/sass-textmate-bundle';
     'Coffescript':
       source => 'Xavura/CoffeeScript-Sublime-Plugin';
+    'RubyTest':
+      source => 'maltize/sublime-text-2-ruby-tests';
+    'WebInspector':
+      source => 'sokolovstas/SublimeWebInspector';
+    'MarkdownPreview':
+      source => 'revolunet/sublimetext-markdown-preview';
   }
   include python
   include appcleaner
@@ -99,14 +107,14 @@ class people::salimane {
   include googledrive
   include sourcetree
   class { 'lastpass':
-    require => [Class['chrome'], Class['firefox']]
+    #require => [Class['chrome'], Class['firefox']]
   }
   include android_studio
   include pgadmin3
   include caffeine
   include gimp
-  include eclipse-plugin-egit
+ # include eclipse-plugin-egit
   include xtrafinder
   include quicksilver
-  include archiver
+  #include archiver
 }

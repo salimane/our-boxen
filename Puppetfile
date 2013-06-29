@@ -13,7 +13,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen", "2.3.3"
+github "boxen", "2.3.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
@@ -77,7 +77,7 @@ github "htop",  "1.0.0",  :repo => "skottler/puppet-htop"
 github "heroku_toolbelt", "1.2.0", :repo => "dieterdemeyer/puppet-heroku_toolbelt"
 github "googledrive", "1.0.2", :repo => "gblair/puppet-googledrive"
 github "sourcetree", "1.0.1", :repo => "ncarroll/puppet-sourcetree"
-github "lastpass", "0.0.2", :repo => "dieterdemeyer/puppet-lastpass"
+github "lastpass", "1.1.0", :repo => "dieterdemeyer/puppet-lastpass"
 github "android_studio", "1.0.0", :repo => "ngs/puppet-android_studio"
 github "pgadmin3", "0.0.3", :repo => "dennisreimann/puppet-pgadmin3"
 github "pgadmin3", "0.0.3", :repo => "dennisreimann/puppet-pgadmin3"
