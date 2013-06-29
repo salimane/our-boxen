@@ -4,7 +4,7 @@ class people::salimane {
   include virtualbox
   include java
   include heroku
- # include eclipse::java
+  include eclipse::java
   include chrome::dev
   include iterm2::dev
   include sublime_text_2
@@ -99,7 +99,6 @@ class people::salimane {
   }
 
   include libreoffice
-  include littlesnitch
   include sequelpro
   #include gpg2
   include htop
@@ -109,11 +108,9 @@ class people::salimane {
   class { 'lastpass':
     #require => [Class['chrome'], Class['firefox']]
   }
-  include android_studio
   include pgadmin3
   include caffeine
   include gimp
- # include eclipse-plugin-egit
   include xtrafinder
   include quicksilver
   #include archiver

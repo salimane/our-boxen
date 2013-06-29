@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: andy-shea/puppet-little-snitch
-  specs:
-    littlesnitch (0.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.1.1)
@@ -291,17 +286,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: jasonamyers/puppet-libreoffice
   specs:
-    libreoffice (4.0.3)
+    libreoffice (4.0.4)
 
 GITHUBTARBALL
   remote: ncarroll/puppet-sourcetree
   specs:
     sourcetree (1.0.1)
-
-GITHUBTARBALL
-  remote: ngs/puppet-android_studio
-  specs:
-    android_studio (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -325,7 +315,6 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.1.1)
-  android_studio (= 1.0.0)
   appcleaner (= 1.0.0)
   archiver (= 1.0.0)
   boxen (= 2.3.4)
@@ -355,8 +344,7 @@ DEPENDENCIES
   iterm2 (= 1.0.2)
   java (= 1.1.1)
   lastpass (= 1.1.0)
-  libreoffice (= 4.0.3)
-  littlesnitch (= 0.0.1)
+  libreoffice (= 4.0.4)
   magican (= 1.0.2)
   nginx (= 1.4.2)
   nodejs (= 3.2.4)
