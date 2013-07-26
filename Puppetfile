@@ -85,3 +85,5 @@ github "eclipse-plugin-egit", "0.0.5", :repo => "steinim/puppet-eclipse-plugin-e
 github "xtrafinder", "1.0.1", :repo => "dieterdemeyer/puppet-xtrafinder"
 github "quicksilver", "1.0.1", :repo => "dieterdemeyer/puppet-quicksilver"
 github "archiver", "1.0.0", :repo => "singuerinc/puppet-archiver"
+github "libevent", "0.0.1", :repo => "enthooz/puppet-libevent"
+github "diffmerge", "0.0.5", :repo => "DorkScript/puppet-diffmerge"

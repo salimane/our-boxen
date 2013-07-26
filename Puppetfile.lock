@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: DorkScript/puppet-diffmerge
+  specs:
+    diffmerge (0.0.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.1.1)
@@ -269,6 +274,11 @@ GITHUBTARBALL
     xtrafinder (1.0.1)
 
 GITHUBTARBALL
+  remote: enthooz/puppet-libevent
+  specs:
+    libevent (0.0.1)
+
+GITHUBTARBALL
   remote: fschwiet/puppet-gimp
   specs:
     gimp (1.0.0)
@@ -322,6 +332,7 @@ DEPENDENCIES
   ccleaner (= 1.0.2)
   chrome (= 1.1.0)
   clipmenu (= 1.0.0)
+  diffmerge (= 0.0.5)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.0)
   eclipse (= 2.0.0)
@@ -344,6 +355,7 @@ DEPENDENCIES
   iterm2 (= 1.0.2)
   java (= 1.1.1)
   lastpass (= 1.1.0)
+  libevent (= 0.0.1)
   libreoffice (= 4.0.4)
   magican (= 1.0.2)
   nginx (= 1.4.2)

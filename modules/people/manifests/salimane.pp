@@ -114,4 +114,5 @@ class people::salimane {
   include xtrafinder
   include quicksilver
   #include archiver
+  include diffmerge
 }
