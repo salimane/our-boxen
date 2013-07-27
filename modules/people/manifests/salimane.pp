@@ -115,4 +115,5 @@ class people::salimane {
   include quicksilver
   #include archiver
   include diffmerge
+  include htop
 }

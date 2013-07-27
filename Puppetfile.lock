@@ -360,6 +360,7 @@ DEPENDENCIES
   heroku_toolbelt (= 1.2.0)
   homebrew (= 1.4.1)
   htop (= 1.0.0)
+  htop (= 1.0.0)
   hub (= 1.0.3)
   imageoptim (= 0.0.2)
   inifile (= 1.0.0)
