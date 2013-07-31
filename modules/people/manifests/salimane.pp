@@ -116,4 +116,5 @@ class people::salimane {
   #include archiver
   include diffmerge
   include htop
+  include limechat
 }
