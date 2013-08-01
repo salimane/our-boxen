@@ -131,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.2.8)
+    nodejs (3.2.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -166,7 +166,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.2.0)
+    ruby (6.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-screen
@@ -376,7 +376,7 @@ DEPENDENCIES
   limechat (= 1.1.0)
   magican (= 1.0.2)
   nginx (= 1.4.2)
-  nodejs (= 3.2.8)
+  nodejs (= 3.2.9)
   openssl (= 1.0.0)
   osx (= 1.5.0)
   pcre (= 1.0.0)
@@ -385,7 +385,7 @@ DEPENDENCIES
   python (= 1.2.1)
   quicksilver (= 1.0.1)
   repository (= 2.2.0)
-  ruby (= 6.2.0)
+  ruby (= 6.3.0)
   screen (= 1.0.0)
   secondbar (= 1.0.1)
   sequelpro (= 1.0.1)
