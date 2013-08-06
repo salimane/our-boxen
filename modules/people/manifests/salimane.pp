@@ -5,7 +5,7 @@ class people::salimane {
   include java
   include heroku
   include eclipse::java
-  include chrome::dev
+  include chrome
   include iterm2::dev
   include sublime_text_2
   sublime_text_2::package { 
