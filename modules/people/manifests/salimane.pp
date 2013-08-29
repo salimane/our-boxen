@@ -59,7 +59,6 @@ class people::salimane {
   include sysctl::ipforwarding
   include screen
   include graphviz
-  include dropbox
   include vagrant
   include spotify
   include vlc
@@ -117,4 +116,12 @@ class people::salimane {
   include diffmerge
   include htop
   include limechat
+  include osxfuse
+  include ntfs_3g
+  include wuala
+
+  include go
+  go::version { '1.1.1': }
+  include go::1_1
+
 }

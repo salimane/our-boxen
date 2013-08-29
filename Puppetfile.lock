@@ -4,6 +4,11 @@ GITHUBTARBALL
     diffmerge (0.0.5)
 
 GITHUBTARBALL
+  remote: MoOx/puppet-ntfs_3g
+  specs:
+    ntfs_3g (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.1.1)
@@ -49,11 +54,6 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-eclipse
   specs:
     eclipse (2.1.0)
@@ -77,6 +77,11 @@ GITHUBTARBALL
   remote: boxen/puppet-github_for_mac
   specs:
     github_for_mac (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-go
+  specs:
+    go (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-google_notifier
@@ -299,6 +304,11 @@ GITHUBTARBALL
     googledrive (1.0.2)
 
 GITHUBTARBALL
+  remote: haelmy/puppet-wuala
+  specs:
+    wuala (0.0.1)
+
+GITHUBTARBALL
   remote: huahang/puppet-sequelpro
   specs:
     sequelpro (1.0.1)
@@ -307,6 +317,11 @@ GITHUBTARBALL
   remote: jasonamyers/puppet-libreoffice
   specs:
     libreoffice (4.0.4)
+
+GITHUBTARBALL
+  remote: jverdeyen/puppet-osxfuse
+  specs:
+    osxfuse (1.1.0)
 
 GITHUBTARBALL
   remote: ncarroll/puppet-sourcetree
@@ -350,7 +365,6 @@ DEPENDENCIES
   clipmenu (= 1.0.0)
   diffmerge (= 0.0.5)
   dnsmasq (= 1.0.0)
-  dropbox (= 1.1.1)
   eclipse (= 2.1.0)
   eclipse-plugin-egit (= 0.0.5)
   firefox (= 1.1.1)
@@ -358,6 +372,7 @@ DEPENDENCIES
   gimp (= 1.0.0)
   git (= 1.2.5)
   github_for_mac (= 1.0.1)
+  go (= 1.0.0)
   google_notifier (= 1.0.1)
   googledrive (= 1.0.2)
   graphviz (= 1.0.0)
@@ -377,8 +392,10 @@ DEPENDENCIES
   magican (= 1.0.2)
   nginx (= 1.4.2)
   nodejs (= 3.2.9)
+  ntfs_3g (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 1.5.0)
+  osxfuse (= 1.1.0)
   pcre (= 1.0.0)
   pgadmin3 (= 0.0.3)
   pkgconfig (= 1.0.0)
@@ -403,6 +420,7 @@ DEPENDENCIES
   virtualbox (= 1.0.5)
   vlc (= 1.0.3)
   wget (= 1.0.0)
+  wuala (= 0.0.1)
   xpdf (= 1.0.0)
   xquartz (= 1.1.0)
   xtrafinder (= 1.0.1)
