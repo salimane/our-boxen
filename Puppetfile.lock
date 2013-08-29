@@ -299,11 +299,6 @@ GITHUBTARBALL
     gimp (1.0.0)
 
 GITHUBTARBALL
-  remote: gblair/puppet-googledrive
-  specs:
-    googledrive (1.0.2)
-
-GITHUBTARBALL
   remote: haelmy/puppet-wuala
   specs:
     wuala (0.0.1)
@@ -374,7 +369,6 @@ DEPENDENCIES
   github_for_mac (= 1.0.1)
   go (= 1.0.0)
   google_notifier (= 1.0.1)
-  googledrive (= 1.0.2)
   graphviz (= 1.0.0)
   heroku (= 2.0.0)
   heroku_toolbelt (= 1.2.0)

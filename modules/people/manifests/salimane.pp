@@ -102,7 +102,6 @@ class people::salimane {
   #include gpg2
   include htop
   include heroku_toolbelt
-  include googledrive
   include sourcetree
   class { 'lastpass':
     #require => [Class['chrome'], Class['firefox']]
