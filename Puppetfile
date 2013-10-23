@@ -35,10 +35,10 @@ github "boxen",      "3.0.4"
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",    "1.0.0"
-github "foreman",    "1.0.0"
+# github "foreman",    "1.0.0"
 github "gcc",        "2.0.1"
 github "git",        "1.3.2"
-github "go",         "1.0.0"
+# github "go",         "1.0.0"
 github "homebrew",   "1.4.1"
 github "hub",        "1.0.3"
 github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
