@@ -101,7 +101,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.0.3)
+    hub (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-imageoptim
@@ -226,12 +226,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
-    vagrant (2.0.13)
+    vagrant (2.0.14)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.6)
+    virtualbox (1.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -373,7 +373,7 @@ DEPENDENCIES
   heroku_toolbelt (= 1.2.0)
   homebrew (= 1.4.1)
   htop (= 1.0.0)
-  hub (= 1.0.3)
+  hub (= 1.1.0)
   imageoptim (= 0.0.2)
   inifile (= 1.0.0)
   iterm2 (= 1.0.3)
@@ -411,8 +411,8 @@ DEPENDENCIES
   sysctl (= 1.0.0)
   tmux (= 1.0.2)
   transmission (= 1.0.0)
-  vagrant (= 2.0.13)
-  virtualbox (= 1.0.6)
+  vagrant (= 2.0.14)
+  virtualbox (= 1.0.7)
   vlc (= 1.0.5)
   wget (= 1.0.0)
   wuala (= 0.0.1)
