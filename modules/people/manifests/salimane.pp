@@ -8,7 +8,7 @@ class people::salimane {
   include chrome
   include iterm2::dev
   include sublime_text_2
-  sublime_text_2::package { 
+  sublime_text_2::package {
     'Emmet':
       source => 'sergeche/emmet-sublime';
     'Alignment':
@@ -97,7 +97,6 @@ class people::salimane {
   }
 
   include libreoffice
-  include sequelpro
   #include gpg2
   include htop
   include heroku_toolbelt
