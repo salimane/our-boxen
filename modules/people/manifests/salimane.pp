@@ -70,7 +70,6 @@ class people::salimane {
   include ccleaner
   include adium
   include google_notifier
-  include secondbar
   include skype
 
   $ruby_version = '2.0.0'
