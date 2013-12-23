@@ -5,7 +5,7 @@ class people::salimane {
   include java
   include heroku
   include eclipse::java
-  include chrome
+  include chrome::canary
   include iterm2::dev
   include sublime_text_2
   sublime_text_2::package {
@@ -107,7 +107,6 @@ class people::salimane {
   include pgadmin3
   include caffeine
   include gimp
-  include xtrafinder
   include quicksilver
   #include archiver
   include diffmerge
