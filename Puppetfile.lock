@@ -74,11 +74,6 @@ GITHUBTARBALL
     github_for_mac (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-go
-  specs:
-    go (2.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-google_notifier
   specs:
     google_notifier (1.0.1)
@@ -351,7 +346,6 @@ DEPENDENCIES
   gimp (= 1.0.0)
   git (= 1.3.7)
   github_for_mac (= 1.0.1)
-  go (= 2.0.1)
   google_notifier (= 1.0.1)
   graphviz (= 1.0.0)
   heroku (= 2.1.1)
