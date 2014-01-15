@@ -116,6 +116,20 @@ class people::salimane {
   include ntfs_3g
   include wuala
 
+  include dockutil
+  dockutil::item { 'Add iTerm':
+    item     => "/Applications/iTerm.app",
+    label    => "iTerm",
+    action   => "add",
+    position => 7,
+  }
+  dockutil::item { 'Add Skype':
+    item     => "/Applications/Skype.app",
+    label    => "Skype",
+    action   => "add",
+    position => 11,
+  }
+
   # include go
   # go::version { '1.1.1': }
   # include go::1_1
