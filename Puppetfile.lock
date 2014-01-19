@@ -14,6 +14,11 @@ GITHUBTARBALL
     adium (1.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.1.7)
+
+GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
     android (1.1.0)
@@ -22,6 +27,11 @@ GITHUBTARBALL
   remote: boxen/puppet-appcleaner
   specs:
     appcleaner (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-appcode2
+  specs:
+    appcode2 (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-augeas
@@ -59,6 +69,11 @@ GITHUBTARBALL
     ccleaner (1.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-charles
+  specs:
+    charles (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.2)
@@ -74,9 +89,24 @@ GITHUBTARBALL
     clipmenu (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-cmake
   specs:
     cmake (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cord
+  specs:
+    cord (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-couchdbx
+  specs:
+    couchdbx (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -89,14 +119,49 @@ GITHUBTARBALL
     dockutil (0.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-eclipse
   specs:
     eclipse (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-elasticsearch
+  specs:
+    elasticsearch (2.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-erlang
+  specs:
+    erlang (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-evernote
+  specs:
+    evernote (2.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.1.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-fish
+  specs:
+    fish (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -112,6 +177,11 @@ GITHUBTARBALL
   remote: boxen/puppet-gdb
   specs:
     gdb (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-gimp
+  specs:
+    gimp (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -164,6 +234,11 @@ GITHUBTARBALL
     inkscape (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-intellij
+  specs:
+    intellij (1.4.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
     iterm2 (1.0.6)
@@ -174,9 +249,24 @@ GITHUBTARBALL
     java (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-jenkins
+  specs:
+    jenkins (0.0.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-jmeter
+  specs:
+    jmeter (0.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-keepassx
   specs:
     keepassx (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-keyremap4macbook
+  specs:
+    keyremap4macbook (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-libpng
@@ -194,14 +284,49 @@ GITHUBTARBALL
     licecap (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-magican
   specs:
     magican (1.0.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-memcached
+  specs:
+    memcached (1.4.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mongodb
+  specs:
+    mongodb (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-moreutils
+  specs:
+    moreutils (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mplayerx
+  specs:
+    mplayerx (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-mr
   specs:
     mr (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-netbeans
+  specs:
+    netbeans (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -214,19 +339,34 @@ GITHUBTARBALL
     nodejs (3.5.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nsq
+  specs:
+    nsq (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-nvm
+  specs:
+    nvm (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-onepassword
+  specs:
+    onepassword (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-onyx
   specs:
     onyx (1.1.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-open_refine
-  specs:
-    open_refine (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-opera
+  specs:
+    opera (0.3.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-osx
@@ -244,9 +384,24 @@ GITHUBTARBALL
     pcre (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-pgadmin3
+  specs:
+    pgadmin3 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-php
+  specs:
+    php (1.1.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-phpstorm
+  specs:
+    phpstorm (1.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-pixman
@@ -259,6 +414,11 @@ GITHUBTARBALL
     pkgconfig (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (3.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-propane
   specs:
     propane (1.0.0)
@@ -269,9 +429,34 @@ GITHUBTARBALL
     property_list_key (0.1.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-protobuf
+  specs:
+    protobuf (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pycharm
+  specs:
+    pycharm (1.0.4)
+
+GITHUBTARBALL
   remote: boxen/puppet-python
   specs:
     python (1.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-quicksilver
+  specs:
+    quicksilver (1.2.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-rdio
+  specs:
+    rdio (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (2.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -279,9 +464,19 @@ GITHUBTARBALL
     repository (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-riak
+  specs:
+    riak (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
     ruby (7.1.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-rubymine
+  specs:
+    rubymine (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-screen
@@ -294,6 +489,11 @@ GITHUBTARBALL
     sequel_pro (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-shiftit
+  specs:
+    shiftit (0.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-skitch
   specs:
     skitch (1.0.2)
@@ -304,9 +504,24 @@ GITHUBTARBALL
     skype (1.0.8)
 
 GITHUBTARBALL
+  remote: boxen/puppet-solr
+  specs:
+    solr (1.0.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sourcetree
+  specs:
+    sourcetree (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-statsd
+  specs:
+    statsd (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-sublime_text_2
@@ -329,6 +544,11 @@ GITHUBTARBALL
     sysctl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-thunderbird
+  specs:
+    thunderbird (1.3.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-tmux
   specs:
     tmux (1.0.2)
@@ -336,7 +556,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-transmission
   specs:
-    transmission (1.0.0)
+    transmission (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-tunnelblick
@@ -344,9 +564,19 @@ GITHUBTARBALL
     tunnelblick (1.0.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-utorrent
+  specs:
+    utorrent (1.1.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (3.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
@@ -359,9 +589,19 @@ GITHUBTARBALL
     vlc (1.0.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vmware_fusion
+  specs:
+    vmware_fusion (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-wget
   specs:
     wget (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xctool
+  specs:
+    xctool (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-xpdf
@@ -374,14 +614,19 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zeromq
+  specs:
+    zeromq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zookeeper
+  specs:
+    zookeeper (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-zsh
   specs:
     zsh (1.0.0)
-
-GITHUBTARBALL
-  remote: dennisreimann/puppet-pgadmin3
-  specs:
-    pgadmin3 (0.0.3)
 
 GITHUBTARBALL
   remote: dieterdemeyer/puppet-lastpass
@@ -394,29 +639,14 @@ GITHUBTARBALL
     limechat (1.2.0)
 
 GITHUBTARBALL
-  remote: dieterdemeyer/puppet-quicksilver
-  specs:
-    quicksilver (1.0.1)
-
-GITHUBTARBALL
   remote: enthooz/puppet-libevent
   specs:
     libevent (0.0.1)
 
 GITHUBTARBALL
-  remote: fschwiet/puppet-gimp
-  specs:
-    gimp (1.0.0)
-
-GITHUBTARBALL
   remote: haelmy/puppet-wuala
   specs:
     wuala (0.0.1)
-
-GITHUBTARBALL
-  remote: ncarroll/puppet-sourcetree
-  specs:
-    sourcetree (1.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -431,7 +661,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: singuerinc/puppet-archiver
   specs:
-    archiver (1.0.0)
+    archiver (0.0.1)
 
 GITHUBTARBALL
   remote: skottler/puppet-htop
@@ -445,9 +675,11 @@ GITHUBTARBALL
 
 DEPENDENCIES
   adium (= 1.3.0)
+  alfred (= 1.1.7)
   android (= 1.1.0)
   appcleaner (= 1.0.0)
-  archiver (= 1.0.0)
+  appcode2 (= 1.0.0)
+  archiver (= 0.0.1)
   augeas (= 1.3.1)
   automake (= 1.0.0)
   boxen (= 3.3.8)
@@ -455,16 +687,27 @@ DEPENDENCIES
   caffeine (= 1.0.0)
   calibre (= 2.0.0)
   ccleaner (= 1.1.0)
+  charles (= 1.0.4)
   chrome (= 1.1.2)
   cinch (= 1.0.1)
   clipmenu (= 1.0.0)
+  clojure (= 1.2.0)
   cmake (= 1.0.1)
+  cord (= 1.0.0)
+  couchdbx (= 1.3.0)
   diffmerge (= 0.0.5)
   dnsmasq (= 1.0.1)
   dockutil (= 0.1.2)
+  dropbox (= 1.2.0)
   eclipse (= 2.2.0)
   eclipse-plugin-egit (= 0.0.5)
+  elasticsearch (= 2.1.0)
+  emacs (= 1.1.1)
+  erlang (= 1.0.1)
+  evernote (= 2.0.4)
   firefox (= 1.1.7)
+  fish (= 1.0.0)
+  flux (= 1.0.0)
   foreman (= 1.0.0)
   gcc (= 2.0.100)
   gdb (= 1.0.0)
@@ -481,56 +724,90 @@ DEPENDENCIES
   imageoptim (= 0.0.2)
   inifile (= 1.0.0)
   inkscape (= 1.0.3)
+  intellij (= 1.4.0)
   iterm2 (= 1.0.6)
   java (= 1.2.0)
+  jenkins (= 0.0.7)
+  jmeter (= 0.1.1)
   keepassx (= 1.0.0)
+  keyremap4macbook (= 1.2.1)
   lastpass (= 1.1.0)
   libevent (= 0.0.1)
   libpng (= 1.0.0)
   libreoffice (= 4.1.4)
   licecap (= 1.0.0)
   limechat (= 1.2.0)
+  macvim (= 1.0.0)
   magican (= 1.0.2)
+  memcached (= 1.4.0)
+  mongodb (= 1.2.0)
+  moreutils (= 1.0.0)
+  mplayerx (= 1.0.2)
   mr (= 1.0.1)
+  mysql (= 1.2.0)
+  netbeans (= 1.0.0)
   nginx (= 1.4.3)
   nodejs (= 3.5.0)
+  nsq (= 1.0.1)
   ntfs_3g (= 1.0.0)
+  nvm (= 1.0.0)
+  onepassword (= 1.1.0)
   onyx (= 1.1.1)
-  open_refine (= 1.0.0)
   openssl (= 1.0.0)
+  openssl (= 1.0.0)
+  opera (= 0.3.1)
   osx (= 2.2.2)
   osxfuse (= 1.1.0)
   pcre (= 1.0.0)
-  pgadmin3 (= 0.0.3)
+  pgadmin3 (= 1.0.0)
   phantomjs (= 2.1.0)
+  php (= 1.1.4)
+  phpstorm (= 1.0.4)
   pixman (= 1.0.0)
   pkgconfig (= 1.0.0)
+  postgresql (= 3.0.0)
   propane (= 1.0.0)
   property_list_key (= 0.1.0)
+  protobuf (= 1.0.0)
+  pycharm (= 1.0.4)
   python (= 1.3.0)
-  quicksilver (= 1.0.1)
+  quicksilver (= 1.2.0)
+  rdio (= 1.0.0)
+  redis (= 2.1.0)
   repository (= 2.2.0)
+  riak (= 1.1.0)
   ruby (= 7.1.6)
+  rubymine (= 1.1.0)
   screen (= 1.0.0)
   sequel_pro (= 1.0.1)
+  shiftit (= 0.0.2)
   skitch (= 1.0.2)
   skype (= 1.0.8)
-  sourcetree (= 1.0.1)
+  solr (= 1.0.4)
+  sourcetree (= 1.0.0)
   spotify (= 1.0.1)
+  statsd (= 1.0.3)
   stdlib (= 4.1.0)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   swig (= 1.0.0)
   sysctl (= 1.0.0)
+  thunderbird (= 1.3.0)
   tmux (= 1.0.2)
-  transmission (= 1.0.0)
+  transmission (= 1.1.0)
   tunnelblick (= 1.0.4)
+  utorrent (= 1.1.1)
   vagrant (= 3.0.3)
+  vim (= 1.0.5)
   virtualbox (= 1.0.10)
   vlc (= 1.0.5)
+  vmware_fusion (= 1.1.0)
   wget (= 1.0.0)
   wuala (= 0.0.1)
+  xctool (= 0.0.1)
   xpdf (= 1.0.0)
   xquartz (= 1.1.1)
+  zeromq (= 1.0.0)
+  zookeeper (= 1.0.2)
   zsh (= 1.0.0)
 

@@ -53,10 +53,57 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
+
+  include appcleaner
+  include archiver
   include dnsmasq
+  include gdb
   include git
+  include homebrew # http://mxcl.github.com/homebrew
+  include htop
   include hub
+  include iterm2::dev
+  include java
+  include libevent
+  include libpng
   include nginx
+  include openssl
+  include osx::disable_app_quarantine
+  include osx::dock::clear_dock
+  include osx::dock::dim_hidden_apps
+  include osx::dock::icon_size # class {'osx::dock::icon_size': size => 36}
+  include osx::dock::pin_position # class {'osx::dock::pin_position':}
+  include osx::dock::position # class {'osx::dock::position': position => 'right'}
+  include osx::finder::empty_trash_securely
+  include osx::finder::enable_quicklook_text_selection
+  include osx::finder::show_hidden_files
+  include osx::finder::show_mounted_servers_on_desktop
+  include osx::finder::unhide_library
+  include osx::global::disable_autocorrect
+  include osx::global::disable_remote_control_ir_receiver
+  include osx::global::enable_keyboard_control_access
+  include osx::global::expand_print_dialog
+  include osx::global::expand_save_dialog
+  include osx::global::key_repeat_delay # class { 'osx::global::key_repeat_delay': delay => 35}
+  include osx::global::key_repeat_rate # class { 'osx::global::key_repeat_rate': rate => 0}
+  include osx::global::natural_mouse_scrolling # class { 'osx::global::natural_mouse_scrolling': enabled => true }
+  include osx::no_network_dsstores
+  include osx::software_update
+  include osx::universal_access::ctrl_mod_zoom
+  include osx::universal_access::enable_scrollwheel_zoom
+  include pcre
+  include python
+  include ruby
+  include screen
+  include skype
+  include sublime_text_2
+  include vagrant
+  include virtualbox
+  include wget
+  include xpdf
+
+
+  $default_ruby_version = '2.0.0'
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -64,16 +111,24 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
+  # include nodejs::v0_6
+  # include nodejs::v0_8
+  # include nodejs::v0_10
 
   # default ruby versions
-  ruby::version { '1.8.7': }  
-  ruby::version { '1.9.2': }
-  ruby::version { '1.9.3': }
-  # ruby::version { '2.0.0': }
-  ruby::version { '2.1.0': }
+  # include ruby::1_8_7
+  # include ruby::1_9_2
+  # include ruby::1_9_3
+  ruby::version { $default_ruby_version: }
+  ->
+  ruby::gem { 'librarian-puppet':
+    gem     => 'librarian-puppet',
+    ruby    => $default_ruby_version,
+    version => '~> 0.9.10'
+  }
+  vagrant::plugin { 'vagrant-hostmanager':
+  }
+
   # common, useful packages
   package {
     [
