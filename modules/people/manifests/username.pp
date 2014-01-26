@@ -131,7 +131,6 @@ class people::username {
   # # ENV['BOXEN_NSQLOOKUPD_TCP_PORT'](default 14160), ENV['BOXEN_NSQLOOKUPD_HTTP_PORT'](default 14161)
   # include nsq
   # include ntfs_3g
-  # include nvm # https://github.com/creationix/nvm
   # include onepassword # https://agilebits.com/onepassword
   # include onyx # http://www.titanium.free.fr/downloadonyx.php
   # include opera

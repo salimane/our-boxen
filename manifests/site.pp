@@ -71,9 +71,6 @@ node default {
   include osx::disable_app_quarantine
   include osx::dock::clear_dock
   include osx::dock::dim_hidden_apps
-  include osx::dock::icon_size # class {'osx::dock::icon_size': size => 36}
-  include osx::dock::pin_position # class {'osx::dock::pin_position':}
-  include osx::dock::position # class {'osx::dock::position': position => 'right'}
   include osx::finder::empty_trash_securely
   include osx::finder::enable_quicklook_text_selection
   include osx::finder::show_hidden_files
@@ -102,7 +99,6 @@ node default {
   include wget
   include xpdf
 
-
   $default_ruby_version = '2.0.0'
 
   # fail if FDE is not enabled
@@ -110,15 +106,8 @@ node default {
     fail('Please enable full disk encryption and try again')
   }
 
-  # node versions
-  # include nodejs::v0_6
-  # include nodejs::v0_8
-  # include nodejs::v0_10
+  # ruby::version { '1.9.3': }
 
-  # default ruby versions
-  # include ruby::1_8_7
-  # include ruby::1_9_2
-  # include ruby::1_9_3
   ruby::version { $default_ruby_version: }
   ->
   ruby::gem { 'librarian-puppet':
