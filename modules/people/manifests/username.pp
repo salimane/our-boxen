@@ -5,7 +5,7 @@ class people::username {
   # include android::platform_tools
   # include android::sdk
   # include android::tools
-  # android::build_tools { '18.1.1': }
+  # android::build_tools { '18': }
   # # install 18 version for all
   # android::version { '18':
   #   options => ['platform', 'add_on', 'system_image', 'sample']
