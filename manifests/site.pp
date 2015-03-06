@@ -53,79 +53,36 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-
-  include appcleaner
-  include archiver
-  include dnsmasq
-  include gdb
-  include git
-  include homebrew # http://mxcl.github.com/homebrew
-  include htop
-  include hub
-  include iterm2::dev
-  include java
-  include libevent
-  include libpng
-  include nginx
-  include openssl
-  include osx::disable_app_quarantine
-  include osx::dock::clear_dock
-  include osx::dock::dim_hidden_apps
-  include osx::finder::empty_trash_securely
-  include osx::finder::enable_quicklook_text_selection
-  include osx::finder::show_hidden_files
-  include osx::finder::show_mounted_servers_on_desktop
-  include osx::finder::unhide_library
-  include osx::global::disable_autocorrect
-  include osx::global::disable_remote_control_ir_receiver
-  include osx::global::enable_keyboard_control_access
-  include osx::global::expand_print_dialog
-  include osx::global::expand_save_dialog
-  include osx::global::key_repeat_delay # class { 'osx::global::key_repeat_delay': delay => 35}
-  include osx::global::key_repeat_rate # class { 'osx::global::key_repeat_rate': rate => 0}
-  include osx::global::natural_mouse_scrolling # class { 'osx::global::natural_mouse_scrolling': enabled => true }
-  include osx::no_network_dsstores
-  include osx::software_update
-  include osx::universal_access::ctrl_mod_zoom
-  include osx::universal_access::enable_scrollwheel_zoom
-  include pcre
-  include python
-  include ruby
-  include screen
-  include skype
-  include sublime_text_2
-  include vagrant
-  include virtualbox
-  include wget
-  include xpdf
-
-  $default_ruby_version = '2.0.0'
+  $default_ruby_version = '2.2.1'
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
 
-  # ruby::version { '1.9.3': }
+  ensure_resource('nodejs::version', 'v0.10')
 
-  ruby::version { $default_ruby_version: }
-  ->
-  ruby::gem { 'librarian-puppet':
-    gem     => 'librarian-puppet',
-    ruby    => $default_ruby_version,
-    version => '~> 0.9.10'
+  ensure_resource('ruby::version', $default_ruby_version)
+  ruby_gem { 'rake-*':
+    gem          => 'rake',
+    ruby_version => '*',
+    version      => '~> 10.3.2'
   }
-  vagrant::plugin { 'vagrant-hostmanager':
+  ruby_gem { 'bundler-*':
+    gem          => 'bundler',
+    ruby_version => '*',
+    version      => '~> 1.8.3'
   }
+  ensure_resource('vagrant::plugin', 'vagrant-hostmanager')
 
   # common, useful packages
-  package {
-    [
-      'ack',
-      'findutils',
-      'gnu-tar'
-    ]:
-  }
+  # package {
+  #   [
+  #     'ack',
+  #     'findutils',
+  #     'gnu-tar'
+  #   ]:
+  # }
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,

@@ -1,0 +1,92 @@
+# boxen::personal::projects:
+
+boxen::personal::includes:
+  - osx::dock::2d
+  - osx::dock::hide_indicator_lights
+  - osx::finder::show_all_on_desktop
+
+  - atom
+  - chrome::beta
+  - dnsmasq
+  - docker # https://www.docker.io/
+  - firefox::beta
+  - foreman # https://github.com/ddollar/foreman
+  - gdb
+  - git
+  - homebrew # http://mxcl.github.com/homebrew
+  - hub
+  - imagemagick # http://www.imagemagick.org/
+  - java
+  - libevent
+  - libpng
+  - moreutils # http://joeyh.name/code/moreutils/
+  - mr # http://joeyh.name/code/mr/
+  - nginx # http://wiki.nginx.org/Main
+  - ntfs_3g
+  - openssl
+  - pcre
+  - pixman # http://pixman.org/
+  - python
+  - ruby
+  - screen
+  - sysctl::ipforwarding
+  - tmux # http://tmux.sourceforge.net/
+  - tunnelblick # http://code.google.com/p/tunnelblick/
+  - vagrant
+  - virtualbox
+  - wget
+  - xpdf
+  - zsh # Installs zsh and makes it your default shell. For justice.
+
+# driven by homebrew-cask
+boxen::personal::osx_apps:
+  - adium # https://adium.im/
+  - appcleaner # http://www.freemacsoft.net/appcleaner/
+  - archiver
+  - arduino
+  - caffeine # http://lightheadsw.com/caffeine/
+  - calibre # http://calibre-ebook.com/
+  - ccleaner # http://www.piriform.com/mac/ccleaner
+  - cinch # http://www.irradiatedsoftware.com/cinch
+  - clipmenu # http://www.clipmenu.com/
+  - dash # http://kapeli.com/dash
+  - gimp # http://www.gimp.org/
+  - github # mac.github.com
+  # - google-hangouts error
+  - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
+  # - gpgtools error
+  # - graphviz # http://www.graphviz.org/
+  # - heroku-toolbelt # http://heroku.com/ error
+  - hipchat
+  - imageoptim
+  - imgur
+  - intellij-idea-ce
+  - invisionsync
+  - iterm2
+  - jenkins-menu
+  - lastpass # https://lastpass.com/
+  - libreoffice # http://www.libreoffice.org/
+  - licecap # http://www.cockos.com/licecap/
+  # - magican # http://www.magicansoft.com/ error
+  # - nmap error
+  - onyx # http://www.titanium.free.fr/downloadonyx.php
+  - opera
+  # - osxfuse # http://osxfuse.github.io/ error
+  - packer
+  - pgadmin3 # http://www.pgadmin.org/
+  - qq
+  - quicksilver # http://qsapp.com/index.php
+  - rubymine # http://www.jetbrains.com/ruby/
+  - sequel-pro # http://www.sequelpro.com/ mysql gui admin
+  - skitch # https://github.com/boxen/puppet-skitch
+  - skype
+  - smartgit
+  - spectacle # http://spectacleapp.com/
+  - spotify # https://www.spotify.com/
+  - torbrowser
+  - vlc # http://www.videolan.org/vlc/index.html
+  # - wkhtmltopdf
+
+boxen::personal::homebrew_packages:
+  - ncdu
+  - tree

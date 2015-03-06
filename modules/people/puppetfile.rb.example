@@ -1,0 +1,2 @@
+github "tower", "1.1.0"
+github "dieterdemeyer/quicksilver", "1.3.0", :repo => "dieterdemeyer/puppet-quicksilver"

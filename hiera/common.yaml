@@ -1,0 +1,148 @@
+---
+# This is an example of the kinds of things that you can configure via hiera.
+# If you've left the defaults in `/hiera.yml`, you might want to copy this file
+# to `hiera/common.yaml`, or feel free to start with a blank slate!
+
+# Have a gander at some of these examples to get an idea of some of the things
+# that you can affect 'out of the box', and then customise to your
+# heart's content.
+
+# driven by puppet modules boxen/puppet-<module>
+boxen::personal::includes:
+  - osx::disable_app_quarantine
+  - osx::dock::dim_hidden_apps
+  - osx::finder::empty_trash_securely
+  - osx::finder::enable_quicklook_text_selection
+  - osx::finder::show_mounted_servers_on_desktop
+  - osx::finder::unhide_library
+  - osx::global::disable_autocorrect
+  - osx::global::enable_keyboard_control_access
+  - osx::global::expand_print_dialog
+  - osx::global::expand_save_dialog
+  - osx::no_network_dsstores
+  - osx::software_update
+  - osx::universal_access::ctrl_mod_zoom
+  - osx::universal_access::enable_scrollwheel_zoom
+
+  - dnsmasq
+  - gdb
+  - git
+  - homebrew # http://mxcl.github.com/homebrew
+  - hub
+  - java
+  - libevent
+  - libpng
+  - openssl
+  - pcre
+  - python
+  - ruby
+  - screen
+  - vagrant
+  - virtualbox
+  - wget
+  - xpdf
+
+# driven by homebrew-cask
+boxen::personal::osx_apps:
+  - appcleaner # http://www.freemacsoft.net/appcleaner/
+  - archiver
+  - atom
+  - hipchat
+  - iterm2
+  - skype
+  - sublime-text
+
+boxen::personal::homebrew_packages:
+  # Network Tools
+  - httpry
+  - ipcalc
+  - mtr
+
+  # System
+  - htop-osx
+  - pstree
+  - pv
+  - spark
+  - watch
+  - terminal-notifier
+
+  # Dev
+  - awscli
+  - ctags
+  - gist
+  - the_silver_searcher
+  - jq
+  - keybase
+
+  # Mail
+  - w3m
+  - notmuch
+  - urlview
+  - contacts
+  - msmtp
+  - isync
+
+  - ack
+  - findutils
+  - gnu-tar
+
+# See https://github.com/boxen/puppet-ruby for docs
+ruby::global::version: "2.2.1"
+ruby::build::ensure: "v20150303"
+ruby::rbenv::ensure: "v0.4.0"
+ruby::rbenv::plugins:
+  rbenv-env:
+    ensure: 1.1
+    source: ianheggie/rbenv-env
+  rbenv-use:
+    ensure: v1.0.0
+    source: rkh/rbenv-use
+  rbenv-whatis:
+    ensure: v1.0.0
+    source: rkh/rbenv-whatis
+  rbenv-update:
+    ensure: f0ff6e3264c45fdf2a8064205db6c8b3a707894e
+    source: rkh/rbenv-update
+  rbenv-default-gems:
+    ensure: v1.0.0
+    source: sstephenson/rbenv-default-gems
+  rbenv-gem-rehash:
+    ensure: v1.0.0
+    source: sstephenson/rbenv-gem-rehash
+  rbenv-vars:
+    ensure: v1.2.0
+    source: sstephenson/rbenv-vars
+ruby::version::alias:
+  2.0.0: 2.0.0-p598
+
+# See https://github.com/boxen/puppet-java for docs
+# java::update_version: 71
+
+# Use default ports for databases
+# mysql::config::port: 3306
+# postgresql::port: 5432
+
+appcode2::version: '3.0.6'
+calibre::version: 2.12.0
+charles::version: 3.9.3
+dropbox::version: 2.10.52
+go::chgo_source: 'https://github.com/salimane/chgo.git'
+go::chgo_version: c6bf021b8304058c70c3429969eff935da2ea099
+intellij::version: 14.0.1
+libreoffice::version: 4.3.5
+osxfuse::version: 2.7.3
+packer::version: 0.7.5
+pgadmin3::version: 1.20.0-beta1
+pycharm::version: 4.0.1
+quicksilver::version: 1.2.1
+rubymine::version: 7.0
+skype::url_hash: b13255c0c672f1ceed7d4340d0986a5d
+skype::version: 7.2.412
+sourcetree::version: 2.0.3
+spectacle::version: 0.8.8
+thunderbird::version: 32.2.0
+tor::version: 4.0.2
+vagrant::version: 1.7.1
+virtualbox::patch_level: 96996
+virtualbox::version: 4.3.20
+vlc::version: 2.1.5

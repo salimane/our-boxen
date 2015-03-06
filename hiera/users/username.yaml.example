@@ -1,0 +1,232 @@
+# boxen::personal::projects:
+#   - myproject
+#
+# boxen::personal::includes:
+#   - osx::disable_app_quarantine
+#   - osx::dock::2d
+#   - osx::dock::autohide
+#   - osx::dock::clear_dock
+#   - osx::dock::dim_hidden_apps
+#   - osx::dock::disable
+#   - osx::dock::hide_indicator_lights
+#   - osx::dock::icon_size # class {'osx::dock::icon_size': size => 36}
+#   - osx::dock::pin_position # class {'osx::dock::pin_position':}
+#   - osx::dock::position # class {'osx::dock::position': position => 'right'}
+#   - osx::finder::empty_trash_securely
+#   - osx::finder::enable_quicklook_text_selection
+#   - osx::finder::show_all_on_desktop
+#   - osx::finder::show_external_hard_drives_on_desktop
+#   - osx::finder::show_hard_drives_on_desktop
+#   - osx::finder::show_hidden_files
+#   - osx::finder::show_mounted_servers_on_desktop
+#   - osx::finder::show_removable_media_on_desktop
+#   - osx::finder::unhide_library
+#   - osx::global::disable_autocorrect
+#   - osx::global::disable_remote_control_ir_receiver
+#   - osx::global::enable_keyboard_control_access
+#   - osx::global::expand_print_dialog
+#   - osx::global::expand_save_dialog
+#   - osx::global::key_repeat_delay # class { 'osx::global::key_repeat_delay': delay => 35}
+#   - osx::global::key_repeat_rate # class { 'osx::global::key_repeat_rate': rate => 0}
+#   - osx::global::natural_mouse_scrolling # class { 'osx::global::natural_mouse_scrolling': enabled => true }
+#   - osx::global::tap_to_click
+#   - osx::no_network_dsstores
+#   - osx::software_update
+#   - osx::universal_access::ctrl_mod_zoom
+#   - osx::universal_access::enable_scrollwheel_zoom
+#
+#   - atom
+#   - chrome
+#   - chrome::beta
+#   - chrome::canary
+#   - chrome::chromium
+#   - chrome::dev
+#   - clojure # http://clojure.org/
+#   - cord # http://cord.sourceforge.net/
+#   - couchdbx # http://couchdb.apache.org/
+#   - dnsmasq
+#   - docker # https://www.docker.io/
+#   - eclipse::ggts
+#   - elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
+#   - elixir # http://elixir-lang.org/
+#   - erlang # http://www.erlang.org/
+#   - fig # http://www.fig.sh/
+#   - firefox::aurora
+#   - firefox::beta
+#   - firefox::nightly
+#   - foreman # https://github.com/ddollar/foreman
+#   - gdb
+#   - git
+#   - homebrew # http://mxcl.github.com/homebrew
+#   - hub
+#   - imagemagick # http://www.imagemagick.org/
+#   - java
+#   - jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
+#   - jmeter # http://jmeter.apache.org/
+#   - libevent
+#   - libpng
+#   - memcached
+#   - memcached::lib
+#   - mongodb # ENV['BOXEN_MONGODB_PORT'], ENV['BOXEN_MONGODB_URL']
+#   - moreutils # http://joeyh.name/code/moreutils/
+#   - mr # http://joeyh.name/code/mr/
+#   - netbeans::jee   # Netbeans Java EE
+#   - netbeans::jse   # Netbeans Java SE
+#   - nginx # http://wiki.nginx.org/Main
+#   - ntfs_3g
+#   - openssl
+#   - pcre
+#   - php::5_4_11
+#   - php::composer
+#   - php::fpm::5_4_11
+#   - pixman # http://pixman.org/
+#   - protobuf # http://code.google.com/p/protobuf/
+#   - python
+#   - qt
+#   - redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
+#   - riak
+#   - ruby
+#   - screen
+#   - shiftit # https://github.com/fikovnik/ShiftIt/
+#   - solr
+#   - statsd # https://github.com/boxen/puppet-statsd
+#   - swig # http://www.swig.org/
+#   - tmux # http://tmux.sourceforge.net/
+#   - tunnelblick # http://code.google.com/p/tunnelblick/
+#   - tunnelblick::beta
+#   - vagrant
+#   - wget
+#   - xpdf
+#   - zeromq # http://zeromq.org/
+#   - zookeeper # http://zookeeper.apache.org/
+#   - zsh # Installs zsh and makes it your default shell. For justice.
+#
+# # driven by homebrew-cask
+# boxen::personal::osx_apps:
+#   - 1password # https://agilebits.com/onepassword
+#   - adium # https://adium.im/
+#   - adobe-creative-cloud
+#   - alfred
+#   - appcleaner # http://www.freemacsoft.net/appcleaner/
+#   - appcode # http://www.jetbrains.com/objc/index.html
+#   - archiver
+#   - arduino
+#   - bittorrent-sync
+#   - caffeine # http://lightheadsw.com/caffeine/
+#   - calibre # http://calibre-ebook.com/
+#   - ccleaner # http://www.piriform.com/mac/ccleaner
+#   - charles
+#   - cinch # http://www.irradiatedsoftware.com/cinch
+#   - clipmenu # http://www.clipmenu.com/
+#   - dash # http://kapeli.com/dash
+#   - diffmerge # https://sourcegear.com/diffmerge/
+#   - dropbox # http://www.dropbox.com/
+#   - eclipse::java # http://www.eclipse.org/
+#   - eclipse::jee
+#   - emacs # http://www.gnu.org/software/emacs
+#   - evernote # https://evernote.com/
+#   - firefox
+#   - flux # http://justgetflux.com/
+#   - gimp # http://www.gimp.org/
+#   - github # mac.github.com
+#   - google-drive
+#   - google-hangouts
+#   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
+#   - gpgtools
+#   - graphviz # http://www.graphviz.org/
+#   - heroku-toolbelt # http://heroku.com/
+#   - hipchat
+#   - imageoptim
+#   - imgur
+#   - inkscape # http://inkscape.org/
+#   - intellij-idea
+#   - intellij-idea-ce
+#   - invisionsync
+#   - istat-menus
+#   - iterm2
+#   - jenkins-menu
+#   - keepassx # http://www.keepassx.org/
+#   - lastpass # https://lastpass.com/
+#   - libreoffice # http://www.libreoffice.org/
+#   - licecap # http://www.cockos.com/licecap/
+#   - limechat # http://limechat.net/mac/
+#   - macvim # http://code.google.com/p/macvim/
+#   - magican # http://www.magicansoft.com/
+#   - minecraft
+#   - netbeans        # Netbeans All
+#   - netbeans-cpp   # Netbeans C/C++
+#   - netbeans-php   # Netbeans PHP
+#   - nmap
+#   - oclint # http://oclint.org/
+#   - omnigraffle
+#   - onyx # http://www.titanium.free.fr/downloadonyx.php
+#   - opera
+#   - opera-mobile-emulator
+#   - osxfuse # http://osxfuse.github.io/
+#   - packer
+#   - parallels-desktop
+#   - pgadmin3 # http://www.pgadmin.org/
+#   - phantomjs
+#   - phpstorm # http://www.jetbrains.com/phpstorm/
+#   - pivotalbooster
+#   - playonmac
+#   - propane # http://propaneapp.com/
+#   - pycharm # http://www.jetbrains.com/pycharm/
+#   - qq
+#   - quicksilver # http://qsapp.com/index.php
+#   - rdio
+#   - rubymine # http://www.jetbrains.com/ruby/
+#   - sequel-pro # http://www.sequelpro.com/ mysql gui admin
+#   - silverlight
+#   - skitch # https://github.com/boxen/puppet-skitch
+#   - skype
+#   - slate
+#   - smartgit
+#   - sourcetree # http://www.sourcetreeapp.com/
+#   - spectacle # http://spectacleapp.com/
+#   - spotify # https://www.spotify.com/
+#   - steam # http://store.steampowered.com/
+#   - sublime-text
+#   - things
+#   - tiled
+#   - torbrowser
+#   - transmission # http://www.transmissionbt.com/
+#   - utorrent # http://www.utorrent.com/
+#   - virtualbox
+#   - vlc # http://www.videolan.org/vlc/index.html
+#   - vmware-fusion
+#   - webstorm
+#   - wkhtmltopdf
+#   - wuala # https://www.wuala.com/
+#
+# boxen::personal::homebrew_packages:
+#   # Network Tools
+#   - httpry
+#   - ipcalc
+#   - mtr
+#
+#   # System
+#   - htop-osx
+#   - pstree
+#   - pv
+#   - spark
+#   - watch
+#   - terminal-notifier
+#
+#   # Dev
+#   - awscli
+#   - ctags
+#   - gist
+#   - the_silver_searcher
+#   - jq
+#   - keybase
+#   - ncdu
+#   - tree
+#
+#   # Mail
+#   - w3m
+#   - notmuch
+#   - urlview
+#   - contacts
+#   - msmtp
+#   - isync

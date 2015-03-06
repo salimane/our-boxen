@@ -1,3 +1,4 @@
+#
 class people::username {
 
   # include adium # https://adium.im/
@@ -10,12 +11,26 @@ class people::username {
   # android::version { '18':
   #   options => ['platform', 'add_on', 'system_image', 'sample']
   # }
-  # android::extra { 'extra-google-google_play_services': }
+  # android::extra { 'extra-google-google_play_services' : }
   # include android::doc
   # include android::studio
   # include appcleaner # http://www.freemacsoft.net/appcleaner/
   # include appcode2 # http://www.jetbrains.com/objc/index.html
   # include archiver
+  # include arduino
+  # include atom
+  # atom::package { [
+  #   'RubyMotion', 'Sublime-Style-Column-Selection', 'angularjs', 'atom-alignment',
+  #   'atom-beautify', 'atom-lint', 'atom-linter', 'atom-spotify', 'auto-detect-indentation',
+  #   'auto-update-packages', 'autocomplete-plus', 'color-picker', 'command-logger', 'compare-files',
+  #   'editor-stats', 'emmet', 'execute-as-ruby', 'expand-selection-to-quotes', 'file-icons',
+  #   'fizzy', 'git-plus', 'git-show', 'html-helper', 'language-docker', 'language-dockerfile',
+  #   'language-gradle', 'language-jade', 'language-nginx', 'language-puppet', 'language-swift',
+  #   'linter', 'linter-python-pep8', 'linter-python-pyflakes', 'markdown-format',
+  #   'minimap', 'minimap-git-diff', 'monokai', 'package-sync', 'pdf-view', 'pretty-json',
+  #   'quotes', 'remember-session', 'sassbeautify', 'sort-lines', 'toggle-quotes'
+  #   ]:
+  # }
   # include btsync # http://labs.bittorrent.com/experiments/sync.html
   # include caffeine # http://lightheadsw.com/caffeine/
   # include calibre # http://calibre-ebook.com/
@@ -35,7 +50,9 @@ class people::username {
   # include clojure # http://clojure.org/
   # include cord # http://cord.sourceforge.net/
   # include couchdbx # http://couchdb.apache.org/
+  # include dash # http://kapeli.com/dash
   # include diffmerge # https://sourcegear.com/diffmerge/
+  # include docker # https://www.docker.io/
   # include dockutil
   # dockutil::item { 'Add Skype':
   #   item     => "/Applications/Skype.app",
@@ -49,9 +66,11 @@ class people::username {
   # include eclipse::java # http://www.eclipse.org/
   # include eclipse::jee
   # include elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
+  # include elixir # http://elixir-lang.org/
   # include emacs # http://www.gnu.org/software/emacs
   # include erlang # http://www.erlang.org/
   # include evernote # https://evernote.com/
+  # include fig # http://www.fig.sh/
   # include firefox
   # include firefox::aurora
   # include firefox::beta
@@ -67,10 +86,17 @@ class people::username {
   # include foreman # https://github.com/ddollar/foreman
   # include gimp # http://www.gimp.org/
   # include github_for_mac # mac.github.com
+  # include go
+  # class { 'go::global' :
+  #   version => '1.4'
+  # }
+  # include googledrive
   # include google_notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
+  # class { 'gpgtools' : }
   # include graphviz # http://www.graphviz.org/
+  # include hipchat
   # include heroku # http://heroku.com/
-  # heroku::plugin { 'accounts':
+  # heroku::plugin { 'accounts' :
   #   source => 'ddollar/heroku-accounts'
   # }
   # include imagemagick # http://www.imagemagick.org/
@@ -83,6 +109,7 @@ class people::username {
   #   edition => 'ultimate',
   #   version => '12.1.4'
   # }
+  # include invisionsync
   # include iterm2::dev
   # include iterm2::stable
   # include iterm2::colors::solarized_dark
@@ -93,15 +120,24 @@ class people::username {
   # }
   # include jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
   # include jmeter # http://jmeter.apache.org/
+  # class { 'kaleidoscope':
+  #   enable_cli   => true,
+  #   make_default => false
+  # }
   # include keepassx # http://www.keepassx.org/
-  # include keyremap4macbook
-  # include keyremap4macbook::login_item
-  # keyremap4macbook::remap{ 'controlL2controlL_escape': } # enable remapping left control to left control + escape
-  # keyremap4macbook::set{ 'parameter.keyoverlaidmodifier_timeout': # set the parameter.keyoverlaidmodifier_timeout to 300
+  # include karabiner
+  # include karabiner::login_item
+  # karabiner::remap{ 'controlL2controlL_escape': } # enable remapping left control to left control + escape
+  # karabiner::set{ 'parameter.keyoverlaidmodifier_timeout': # set the parameter.keyoverlaidmodifier_timeout to 300
   #   value => '300'
   # }
-  # keyremap4macbook::private_xml{ 'private.xml': # set the contents of the private.xml file.
+  # karabiner::private_xml{ 'private.xml': # set the contents of the private.xml file.
   #   content => '<some>xml</some>'
+  # }
+  # karabiner::profile{ 'foo': }
+  # karabiner::set{ 'parameter.keyoverlaidmodifier_timeout':
+  #   value   => '300',
+  #   profile => 'foo'
   # }
   # include lastpass # https://lastpass.com/
   # include libreoffice # http://www.libreoffice.org/
@@ -122,6 +158,7 @@ class people::username {
   # include netbeans::cpp   # Netbeans C/C++
   # include netbeans::php   # Netbeans PHP
   # include nginx # http://wiki.nginx.org/Main
+  # include nmap
   # nodejs { 'v0.10.1': } # install any arbitrary nodejs version
   # nodejs::module { 'bower': # install some npm modules
   #   node_version => 'v0.10'
@@ -131,6 +168,8 @@ class people::username {
   # # ENV['BOXEN_NSQLOOKUPD_TCP_PORT'](default 14160), ENV['BOXEN_NSQLOOKUPD_HTTP_PORT'](default 14161)
   # include nsq
   # include ntfs_3g
+  # include oclint # http://oclint.org/
+  # include oclint::dev
   # include onepassword # https://agilebits.com/onepassword
   # include onyx # http://www.titanium.free.fr/downloadonyx.php
   # include opera
@@ -169,6 +208,8 @@ class people::username {
   # include osx::universal_access::enable_scrollwheel_zoom
   # osx::recovery_message { 'If this Mac is found, please call 123-456-7890': } # https://github.com/boxen/puppet-osx
   # include osxfuse # http://osxfuse.github.io/
+  # include packer
+  # include parallels
   # include pgadmin3 # http://www.pgadmin.org/
   # include phantomjs # Installs Phantomenv for PhantomJS version management
   # phantomjs::version { '1.9.0': } # Install PhantomJS version 1.9.0
@@ -213,6 +254,7 @@ class people::username {
   # }
   # include protobuf # http://code.google.com/p/protobuf/
   # include pycharm # http://www.jetbrains.com/pycharm/
+  # include qt
   # include quicksilver # http://qsapp.com/index.php
   # include rdio # http://en.rdio.com/
   # include redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
@@ -227,22 +269,25 @@ class people::username {
   # }
   # include riak
   # class { 'ruby::global': # Set the global default ruby (auto-installs it if it can)
-  #   version => '2.1.0'
+  #   version => '2.2.1'
   # }
-  # ruby::version { '2.1.0': } # install a ruby version
+  # ensure_resource('ruby::version', '2.2.1') # install a ruby version
   # ruby::gem { "bundler for ${version}": # ensure a gem is installed for a certain ruby version
   #   gem     => 'bundler',
-  #   ruby    => "2.1.0",
-  #   version => '~> 1.2.0'
+  #   ruby    => "2.2.1",
+  #   version => '~> 1.8.3'
   # }
   # include rubymine # http://www.jetbrains.com/ruby/
   # include sequel_pro # http://www.sequelpro.com/ mysql gui admin
+  # include silverlight
   # include shiftit # https://github.com/fikovnik/ShiftIt/
   # include skitch # https://github.com/boxen/puppet-skitch
+  # include spectacle # http://spectacleapp.com/
   # include solr
   # include sourcetree # http://www.sourcetreeapp.com/
   # include spotify # https://www.spotify.com/
   # include statsd # https://github.com/boxen/puppet-statsd
+  # include steam # http://store.steampowered.com/
   # include sublime_text_2 # http://www.sublimetext.com//
   # sublime_text_2::package { 'Emmet':
   #   source => 'sergeche/emmet-sublime'
@@ -258,6 +303,7 @@ class people::username {
   # }
 
   # include tmux # http://tmux.sourceforge.net/
+  # include tor
   # include transmission # http://www.transmissionbt.com/
   # include tunnelblick # http://code.google.com/p/tunnelblick/
   # include tunnelblick::beta
@@ -276,6 +322,7 @@ class people::username {
   # file { "${vim::vimrc}": ensure => exists }
 
   # include vlc # http://www.videolan.org/vlc/index.html
+  # include wkhtmltopdf
   # class { 'vmware_fusion': version => '6.0.2-1398658' } # https://www.vmware.com/products/fusion/
   # include wuala # https://www.wuala.com/
   # include zeromq # http://zeromq.org/
