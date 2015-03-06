@@ -69,7 +69,7 @@ class people::salimane {
   # include packer
   # include parallels
   # include propane # http://propaneapp.com/
-  ensure_resource('ruby::version', '2.2.0') # install a ruby version
+  ensure_resource('ruby::version', '2.2.1') # install a ruby version
   # include sequel_pro # http://www.sequelpro.com/ mysql gui admin
   # include skitch # https://github.com/boxen/puppet-skitch
   # include spectacle
@@ -82,7 +82,16 @@ class people::salimane {
   # include wkhtmltopdf
   # include zsh # Installs zsh and makes it your default shell. For justice.
 
-  repository { "${boxen::config::srcdir}/dotfiles":
-    source => 'salimane/dotfiles'
+  $dotfiles = "${boxen::config::srcdir}/dotfiles"
+  repository { $dotfiles:
+    source => "${::github_login}/dotfiles",
   }
+  exec { 'install dotfiles':
+    provider => shell,
+    command  => 'make install',
+    cwd      => $dotfiles,
+    creates  => "${::home}/.zshrc",
+    require  => Repository[$dotfiles],
+  }
+
 }
