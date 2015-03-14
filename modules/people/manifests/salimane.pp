@@ -56,7 +56,7 @@ class people::salimane {
   # include nmap
   # include opera::developer
   # include opera::mobile
-  osx::recovery_message { 'If this Mac is found, please call 015732675528': }
+  osx::recovery_message { 'If this Mac is found, please call +4915732675528': }
   # include osx::dock::2d
   # include osx::dock::hide_indicator_lights
   # include osx::finder::show_all_on_desktop

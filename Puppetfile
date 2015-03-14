@@ -42,7 +42,7 @@ github "brewcask",   "0.0.6"
 github "dnsmasq",    "2.0.1"
 github "foreman",    "1.2.0"
 github "gcc",        "2.2.0"
-github "git",        "2.7.5"
+github "git",        "2.7.6"
 # dev "go"#,         "2.1.0"
 mod 'go',
   :git => "https://github.com/salimane/puppet-go",

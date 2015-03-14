@@ -59,7 +59,7 @@ boxen::personal::homebrew_packages:
   - mtr
 
   # System
-  - htop-osx
+  - htop
   - pstree
   - pv
   - spark
