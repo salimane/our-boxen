@@ -63,17 +63,17 @@ node default {
   ensure_resource('nodejs::version', 'v0.10')
 
   ensure_resource('ruby::version', $default_ruby_version)
-  ruby_gem { 'rake-*':
-    gem          => 'rake',
-    ruby_version => '*',
-    version      => '~> 10.3.2'
-  }
+  # ruby_gem { 'rake-*':
+  #   gem          => 'rake',
+  #   ruby_version => '*',
+  #   version      => '~> 10.3.2'
+  # }
   ruby_gem { 'bundler-*':
     gem          => 'bundler',
     ruby_version => '*',
-    version      => '~> 1.8.3'
+    version      => '~> 1.8.4'
   }
-  ensure_resource('vagrant::plugin', 'vagrant-hostmanager')
+  # ensure_resource('vagrant::plugin', 'vagrant-hostmanager')
 
   # common, useful packages
   # package {
