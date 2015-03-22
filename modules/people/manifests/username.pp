@@ -1,7 +1,6 @@
 #
 class people::username {
 
-  # include adium # https://adium.im/
   # include android::ndk
   # include android::platform_tools
   # include android::sdk
@@ -14,10 +13,7 @@ class people::username {
   # android::extra { 'extra-google-google_play_services' : }
   # include android::doc
   # include android::studio
-  # include appcleaner # http://www.freemacsoft.net/appcleaner/
   # include appcode2 # http://www.jetbrains.com/objc/index.html
-  # include archiver
-  # include arduino
   # include atom
   # atom::package { [
   #   'RubyMotion', 'Sublime-Style-Column-Selection', 'angularjs', 'atom-alignment',
@@ -32,9 +28,6 @@ class people::username {
   #   ]:
   # }
   # include btsync # http://labs.bittorrent.com/experiments/sync.html
-  # include caffeine # http://lightheadsw.com/caffeine/
-  # include calibre # http://calibre-ebook.com/
-  # include ccleaner # http://www.piriform.com/mac/ccleaner
   # include charles # http://www.charlesproxy.com/
   # class {'charles::license':
   #   license_name => 'Your name',
@@ -45,12 +38,9 @@ class people::username {
   # include chrome::canary
   # include chrome::chromium
   # include chrome::dev
-  # include cinch # http://www.irradiatedsoftware.com/cinch
-  # include clipmenu # http://www.clipmenu.com/
   # include clojure # http://clojure.org/
   # include cord # http://cord.sourceforge.net/
   # include couchdbx # http://couchdb.apache.org/
-  # include dash # http://kapeli.com/dash
   # include diffmerge # https://sourcegear.com/diffmerge/
   # include docker # https://www.docker.io/
   # include dockutil
@@ -84,40 +74,13 @@ class people::username {
   # }
   # include flux # http://justgetflux.com/
   # include foreman # https://github.com/ddollar/foreman
-  # include gimp # http://www.gimp.org/
-  # include github_for_mac # mac.github.com
   # include go
   # class { 'go::global' :
   #   version => '1.4'
   # }
   # include googledrive
-  # include google_notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
-  # class { 'gpgtools' : }
-  # include graphviz # http://www.graphviz.org/
-  # include hipchat
-  # include heroku # http://heroku.com/
-  # heroku::plugin { 'accounts' :
-  #   source => 'ddollar/heroku-accounts'
-  # }
   # include imagemagick # http://www.imagemagick.org/
-  # include imageoptim
   # include inkscape # http://inkscape.org/
-  # class { 'intellij': # http://www.jetbrains.com/idea/
-  #   edition => 'community',
-  # }
-  # class { 'intellij':
-  #   edition => 'ultimate',
-  #   version => '12.1.4'
-  # }
-  # include invisionsync
-  # include iterm2::dev
-  # include iterm2::stable
-  # include iterm2::colors::solarized_dark
-  # include iterm2::colors::solarized_light
-  # iterm2::colors { 'My Color Scheme':
-  #   ansi_0_color        => [0.103, 0.810, 0.098],
-  #   ansi_1_color        => [0.103, 0.810, 0.098],
-  # }
   # include jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
   # include jmeter # http://jmeter.apache.org/
   # class { 'kaleidoscope':
@@ -139,12 +102,8 @@ class people::username {
   #   value   => '300',
   #   profile => 'foo'
   # }
-  # include lastpass # https://lastpass.com/
-  # include libreoffice # http://www.libreoffice.org/
-  # include licecap # http://www.cockos.com/licecap/
   # include limechat # http://limechat.net/mac/
   # include macvim # http://code.google.com/p/macvim/
-  # include magican # http://www.magicansoft.com/
   # include memcached
   # include memcached::lib
   # include mongodb # ENV['BOXEN_MONGODB_PORT'], ENV['BOXEN_MONGODB_URL']
@@ -158,7 +117,6 @@ class people::username {
   # include netbeans::cpp   # Netbeans C/C++
   # include netbeans::php   # Netbeans PHP
   # include nginx # http://wiki.nginx.org/Main
-  # include nmap
   # nodejs { 'v0.10.1': } # install any arbitrary nodejs version
   # nodejs::module { 'bower': # install some npm modules
   #   node_version => 'v0.10'
@@ -172,9 +130,6 @@ class people::username {
   # include oclint::dev
   # include onepassword # https://agilebits.com/onepassword
   # include onyx # http://www.titanium.free.fr/downloadonyx.php
-  # include opera
-  # include opera::developer
-  # include opera::mobile
   # include osx::disable_app_quarantine
   # include osx::dock::2d
   # include osx::dock::autohide
@@ -208,9 +163,7 @@ class people::username {
   # include osx::universal_access::enable_scrollwheel_zoom
   # osx::recovery_message { 'If this Mac is found, please call 123-456-7890': } # https://github.com/boxen/puppet-osx
   # include osxfuse # http://osxfuse.github.io/
-  # include packer
   # include parallels
-  # include pgadmin3 # http://www.pgadmin.org/
   # include phantomjs # Installs Phantomenv for PhantomJS version management
   # phantomjs::version { '1.9.0': } # Install PhantomJS version 1.9.0
   # phantomjs::global { '1.9.0': } # Set the global version of PhantomJS (version should be installed already)
@@ -255,7 +208,6 @@ class people::username {
   # include protobuf # http://code.google.com/p/protobuf/
   # include pycharm # http://www.jetbrains.com/pycharm/
   # include qt
-  # include quicksilver # http://qsapp.com/index.php
   # include rdio # http://en.rdio.com/
   # include redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
   # repository { # clone some code repositories to some folder
@@ -277,21 +229,12 @@ class people::username {
   #   ruby    => "2.2.1",
   #   version => '~> 1.8.3'
   # }
-  # include rubymine # http://www.jetbrains.com/ruby/
-  # include sequel_pro # http://www.sequelpro.com/ mysql gui admin
   # include silverlight
   # include shiftit # https://github.com/fikovnik/ShiftIt/
-  # include skitch # https://github.com/boxen/puppet-skitch
-  # include spectacle # http://spectacleapp.com/
   # include solr
   # include sourcetree # http://www.sourcetreeapp.com/
-  # include spotify # https://www.spotify.com/
   # include statsd # https://github.com/boxen/puppet-statsd
   # include steam # http://store.steampowered.com/
-  # include sublime_text_2 # http://www.sublimetext.com//
-  # sublime_text_2::package { 'Emmet':
-  #   source => 'sergeche/emmet-sublime'
-  # }
   # include swig # http://www.swig.org/
   # sysctl::set { 'somekey':
   #   value => 'somevalue'
@@ -303,7 +246,6 @@ class people::username {
   # }
 
   # include tmux # http://tmux.sourceforge.net/
-  # include tor
   # include transmission # http://www.transmissionbt.com/
   # include tunnelblick # http://code.google.com/p/tunnelblick/
   # include tunnelblick::beta
@@ -321,7 +263,6 @@ class people::username {
   # # Or, simply,
   # file { "${vim::vimrc}": ensure => exists }
 
-  # include vlc # http://www.videolan.org/vlc/index.html
   # include wkhtmltopdf
   # class { 'vmware_fusion': version => '6.0.2-1398658' } # https://www.vmware.com/products/fusion/
   # include wuala # https://www.wuala.com/
