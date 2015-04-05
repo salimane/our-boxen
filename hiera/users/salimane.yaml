@@ -89,5 +89,6 @@ boxen::personal::osx_apps:
   # - wkhtmltopdf
 
 boxen::personal::homebrew_packages:
+  - awscli
   - ncdu
   - tree
