@@ -116,33 +116,20 @@ ruby::version::alias:
   2.0.0: 2.0.0-p598
 
 # See https://github.com/boxen/puppet-java for docs
-# java::update_version: 71
+# java::update_version: 80
 
 # Use default ports for databases
 # mysql::config::port: 3306
 # postgresql::port: 5432
 
 appcode2::version: '3.0.6'
-# calibre::version: 2.12.0
 charles::version: 3.9.3
-# dropbox::version: 2.10.52
 go::chgo_source: 'https://github.com/salimane/chgo.git'
 go::chgo_version: c6bf021b8304058c70c3429969eff935da2ea099
-# intellij::version: 14.0.1
-# libreoffice::version: 4.3.5
 osxfuse::version: 2.7.3
-# packer::version: 0.7.5
-# pgadmin3::version: 1.20.0-beta1
 pycharm::version: 4.0.1
-# quicksilver::version: 1.2.1
-# rubymine::version: 7.0
-# skype::url_hash: b13255c0c672f1ceed7d4340d0986a5d
-# skype::version: 7.2.412
 sourcetree::version: 2.0.3
-# spectacle::version: 0.8.8
 thunderbird::version: 32.2.0
-# tor::version: 4.0.2
 vagrant::version: 1.7.2
-virtualbox::patch_level: 98716
-virtualbox::version: 4.3.24
-# vlc::version: 2.1.5
+virtualbox::patch_level: 98988
+virtualbox::version: 4.3.26
