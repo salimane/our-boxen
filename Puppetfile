@@ -82,10 +82,7 @@ github "automake", "1.0.0"
 github "authy", "1.0.1"
 github "bash", "1.2.0"
 github "btsync", "1.0.0"
-# dev "charles"#, "1.0.4"
-mod 'charles',
-  :git => "https://github.com/salimane/puppet-charles",
-  :ref => 'version'
+github "charles", "1.1.0"
 github "chrome",     "1.2.0"
 github "clojure", "1.3.0"
 github "cmake", "1.0.1"
@@ -138,10 +135,7 @@ github "ntfs_3g", "1.0.0", :repo => "MoOx/puppet-ntfs_3g"
 github "oclint", "1.1.6"
 github "onyx", "1.2.0"
 github "osx",        "2.8.0"
-# dev "osxfuse"#, "1.3.0"
-mod 'osxfuse',
-  :git => "https://github.com/salimane/puppet-osxfuse",
-  :ref => 'yosemite'
+github "osxfuse", "1.4.0"
 github "parallels", "1.1.1"
 github "pcre", "1.0.0"
 github "php", "1.2.6"
@@ -162,10 +156,6 @@ github "silverlight", "1.0.1"
 github "shiftit", "0.0.2"
 github "solr", "1.0.4"
 github "sourcetree", "1.0.0"
-# dev "spectacle"#, "1.0.0"
-# mod 'spectacle',
-#   :git => "https://github.com/salimane/puppet-spectacle",
-#   :ref => 'version'
 github "statsd", "1.0.3"
 github "steam", "1.0.1"
 github "swig", "1.0.0"
