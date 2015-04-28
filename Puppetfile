@@ -56,11 +56,8 @@ github "openssl",    "1.0.0"
 github "phantomjs",  "2.3.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.3.0"
-github "vcsrepo", "1.2.0", :repo => "puppetlabs/puppetlabs-vcsrepo"
-# dev "ruby"#, "8.1.7"
-mod 'ruby',
-  :git => "https://github.com/salimane/puppet-ruby",
-  :ref => 'rbenv_plugins'
+github "vcsrepo",    "1.2.0", :repo => "puppetlabs/puppetlabs-vcsrepo"
+github "ruby",       "8.5.2"
 github "stdlib",     "4.6.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"
