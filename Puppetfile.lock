@@ -123,7 +123,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.7.1)
+    elasticsearch (2.8.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-elixir
@@ -183,7 +183,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.8)
+    git (2.7.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-googledrive
@@ -378,7 +378,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
-    postgresql (3.0.3)
+    postgresql (4.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-propane
@@ -644,7 +644,7 @@ DEPENDENCIES
   dropbox (= 1.4.1)
   eclipse (= 2.5.0)
   eclipse-plugin-egit (= 0.0.5)
-  elasticsearch (= 2.7.1)
+  elasticsearch (= 2.8.0)
   elixir (= 0.0.1)
   emacs (= 1.3.0)
   erlang (= 1.0.4)
@@ -657,7 +657,7 @@ DEPENDENCIES
   foreman (= 1.2.0)
   gcc (= 2.2.1)
   gdb (= 1.0.0)
-  git (= 2.7.8)
+  git (= 2.7.9)
   go (>= 0)
   googledrive (= 1.0.2)
   gpgtools (= 1.0.4)
@@ -704,7 +704,7 @@ DEPENDENCIES
   phpstorm (= 1.0.6)
   pixman (= 1.0.0)
   pkgconfig (= 1.0.0)
-  postgresql (= 3.0.3)
+  postgresql (= 4.0.1)
   propane (= 1.0.0)
   property_list_key (= 0.1.0)
   protobuf (= 1.0.0)
