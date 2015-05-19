@@ -67,6 +67,8 @@ boxen::personal::homebrew_packages:
   - terminal-notifier
 
   # Dev
+  - autoconf
+  - automake
   - awscli
   - ctags
   - gist
