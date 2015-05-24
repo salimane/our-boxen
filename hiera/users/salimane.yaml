@@ -38,7 +38,7 @@ boxen::personal::includes:
   - xpdf
   - zsh # Installs zsh and makes it your default shell. For justice.
 
-# driven by homebrew-cask
+# driven by homebrew-cask http://caskroom.io/search
 boxen::personal::osx_apps:
   - adium # https://adium.im/
   - appcleaner # http://www.freemacsoft.net/appcleaner/
@@ -81,13 +81,16 @@ boxen::personal::osx_apps:
   - sequel-pro # http://www.sequelpro.com/ mysql gui admin
   - skitch # https://github.com/boxen/puppet-skitch
   - skype
+  - slack
   - smartgit
   - spectacle # http://spectacleapp.com/
   - spotify # https://www.spotify.com/
   - torbrowser
+  - trello-x # http://lingsdesigns.com/trellox/
   - vlc # http://www.videolan.org/vlc/index.html
   # - wkhtmltopdf
 
+# driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   - awscli
   - jq

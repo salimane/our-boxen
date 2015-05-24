@@ -117,7 +117,7 @@ class people::username {
   # include netbeans::cpp   # Netbeans C/C++
   # include netbeans::php   # Netbeans PHP
   # include nginx # http://wiki.nginx.org/Main
-  # nodejs { 'v0.10.1': } # install any arbitrary nodejs version
+  # ensure_resource('nodejs::version', 'v0.10') # install any arbitrary nodejs version
   # nodejs::module { 'bower': # install some npm modules
   #   node_version => 'v0.10'
   # }

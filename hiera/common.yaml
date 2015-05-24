@@ -42,7 +42,7 @@ boxen::personal::includes:
   - wget
   - xpdf
 
-# driven by homebrew-cask
+# driven by homebrew-cask http://caskroom.io/search
 boxen::personal::osx_apps:
   - appcleaner # http://www.freemacsoft.net/appcleaner/
   - archiver
@@ -52,6 +52,7 @@ boxen::personal::osx_apps:
   - skype
   - sublime-text
 
+# driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   # Network Tools
   - httpry

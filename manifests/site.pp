@@ -53,36 +53,20 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  $default_ruby_version = '2.2.1'
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
   }
 
-  ensure_resource('nodejs::version', 'v0.10')
+  ensure_resource('nodejs::version', $::default_node_version)
+  ensure_resource('ruby::version', $::default_ruby_version)
 
-  ensure_resource('ruby::version', $default_ruby_version)
-  # ruby_gem { 'rake-*':
-  #   gem          => 'rake',
-  #   ruby_version => '*',
-  #   version      => '~> 10.3.2'
-  # }
   ruby_gem { 'bundler-*':
     gem          => 'bundler',
     ruby_version => '*',
-    version      => '~> 1.8.4'
+    version      => "~> ${::default_bundler_version}"
   }
-  # ensure_resource('vagrant::plugin', 'vagrant-hostmanager')
-
-  # common, useful packages
-  # package {
-  #   [
-  #     'ack',
-  #     'findutils',
-  #     'gnu-tar'
-  #   ]:
-  # }
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
