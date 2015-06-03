@@ -47,7 +47,7 @@ github "git",        "2.7.9"
 mod 'go',
   :git => "https://github.com/salimane/puppet-go",
   :ref => 'class_versions'
-github "homebrew",   "1.12.0"
+github "homebrew",   "1.12.1"
 github "hub",        "1.4.1"
 github "inifile",    "1.2.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.5"
@@ -71,8 +71,8 @@ people_puppetfile = '/opt/boxen/repo/modules/people/puppetfile.rb'
 eval(File.read(people_puppetfile)) if File.exist?(people_puppetfile)
 
 
-github "alfred", "1.4.0"
-github "android", "1.4.0"
+github "alfred", "1.5.0"
+github "android", "1.5.1"
 github "appcode2", "1.0.0"
 github "augeas", "1.3.1"
 github "automake", "1.0.0"

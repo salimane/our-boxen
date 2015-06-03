@@ -18,12 +18,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-alfred
   specs:
-    alfred (1.4.0)
+    alfred (1.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
-    android (1.4.0)
+    android (1.5.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-appcode2
@@ -203,7 +203,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.12.0)
+    homebrew (1.12.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -621,8 +621,8 @@ GITHUBTARBALL
     eclipse-plugin-egit (0.0.5)
 
 DEPENDENCIES
-  alfred (= 1.4.0)
-  android (= 1.4.0)
+  alfred (= 1.5.0)
+  android (= 1.5.1)
   appcode2 (= 1.0.0)
   augeas (= 1.3.1)
   authy (= 1.0.1)
@@ -662,7 +662,7 @@ DEPENDENCIES
   googledrive (= 1.0.2)
   gpgtools (= 1.0.4)
   graphviz (= 1.0.0)
-  homebrew (= 1.12.0)
+  homebrew (= 1.12.1)
   htop (= 1.0.0)
   hub (= 1.4.1)
   imagemagick (= 1.3.0)
