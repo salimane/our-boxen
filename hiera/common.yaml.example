@@ -8,8 +8,8 @@
 # heart's content.
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::global::version: "2.2.1"
-ruby::build::ensure: "v20150303"
+ruby::global::version: "2.2.2"
+ruby::build::ensure: "v20150519"
 ruby::rbenv::ensure: "v0.4.0"
 ruby::rbenv_plugins:
   rbenv-use:
@@ -43,7 +43,7 @@ ruby::rbenv_plugins:
     ensure: v1.2.0
     source: sstephenson/rbenv-vars
 ruby::version::alias:
-  2.0.0: 2.0.0-p598
+  2.0.0: 2.0.0-p645
 
 # See https://github.com/boxen/puppet-java for docs
 # java::update_version: 80

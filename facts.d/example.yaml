@@ -6,3 +6,6 @@
 
 # homebrew_root: /usr/local
 # brewcask_root: /opt/homebrew-cask
+# default_ruby_version: '2.2.2'
+# default_bundler_version: '1.10.4'
+# default_node_version: 'v0.12'

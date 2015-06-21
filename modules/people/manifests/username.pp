@@ -24,7 +24,7 @@ class people::username {
   #   'language-gradle', 'language-jade', 'language-nginx', 'language-puppet', 'language-swift',
   #   'linter', 'linter-pep8', 'linter-python-pyflakes', 'markdown-format',
   #   'minimap', 'minimap-git-diff', 'monokai', 'package-sync', 'pdf-view', 'pretty-json',
-  #   'quotes', 'remember-session', 'sassbeautify', 'sort-lines', 'toggle-quotes'
+  #   'quotes', 'save-session', 'sassbeautify', 'sort-lines', 'toggle-quotes'
   #   ]:
   # }
   # include btsync # http://labs.bittorrent.com/experiments/sync.html
