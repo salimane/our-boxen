@@ -8,7 +8,6 @@ boxen::personal::includes:
   - atom
   - chrome::beta
   - dnsmasq
-  - docker # https://www.docker.io/
   - firefox::beta
   - foreman # https://github.com/ddollar/foreman
   - gdb
@@ -22,7 +21,6 @@ boxen::personal::includes:
   - moreutils # http://joeyh.name/code/moreutils/
   - mr # http://joeyh.name/code/mr/
   - nginx # http://wiki.nginx.org/Main
-  - ntfs_3g
   - openssl
   - pcre
   - pixman # http://pixman.org/
@@ -44,6 +42,7 @@ boxen::personal::osx_apps:
   - appcleaner # http://www.freemacsoft.net/appcleaner/
   - archiver
   - arduino
+  - boot2docker-status # http://boot2docker-status.nickgartmann.com/
   - caffeine # http://lightheadsw.com/caffeine/
   - calibre # http://calibre-ebook.com/
   - ccleaner # http://www.piriform.com/mac/ccleaner
@@ -93,6 +92,10 @@ boxen::personal::osx_apps:
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   - awscli
+  - boot2docker # http://boot2docker.io/
+  - docker-compose # https://docs.docker.com/compose/
+  - docker-machine # https://docs.docker.com/machine/
+  - homebrew/fuse/ntfs-3g
   - jq
   - pv
   - ncdu

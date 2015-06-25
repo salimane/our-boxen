@@ -42,7 +42,6 @@ class people::username {
   # include cord # http://cord.sourceforge.net/
   # include couchdbx # http://couchdb.apache.org/
   # include diffmerge # https://sourcegear.com/diffmerge/
-  # include docker # https://www.docker.io/
   # include dockutil
   # dockutil::item { 'Add Skype':
   #   item     => "/Applications/Skype.app",

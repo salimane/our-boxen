@@ -13,11 +13,6 @@ GIT
     ruby (0.0.1)
 
 GITHUBTARBALL
-  remote: MoOx/puppet-ntfs_3g
-  specs:
-    ntfs_3g (1.0.0)
-
-GITHUBTARBALL
   remote: arron-green/puppet-diffmerge
   specs:
     diffmerge (0.0.5)
@@ -106,11 +101,6 @@ GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-docker
-  specs:
-    docker (0.9.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dockutil
@@ -641,7 +631,6 @@ DEPENDENCIES
   couchdbx (= 1.3.0)
   diffmerge (= 0.0.5)
   dnsmasq (= 2.0.1)
-  docker (= 0.9.0)
   dockutil (= 0.2.1)
   dropbox (= 1.4.1)
   eclipse (= 2.5.0)
@@ -693,7 +682,6 @@ DEPENDENCIES
   nmap (= 1.0.3)
   nodejs (= 4.0.1)
   nsq (= 1.0.1)
-  ntfs_3g (= 1.0.0)
   oclint (= 1.1.6)
   onyx (= 1.2.0)
   openssl (= 1.0.0)

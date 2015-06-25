@@ -45,7 +45,6 @@
 #   - cord # http://cord.sourceforge.net/
 #   - couchdbx # http://couchdb.apache.org/
 #   - dnsmasq
-#   - docker # https://www.docker.io/
 #   - eclipse::ggts
 #   - elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
 #   - elixir # http://elixir-lang.org/
@@ -73,7 +72,6 @@
 #   - netbeans::jee   # Netbeans Java EE
 #   - netbeans::jse   # Netbeans Java SE
 #   - nginx # http://wiki.nginx.org/Main
-#   - ntfs_3g
 #   - openssl
 #   - pcre
 #   - php::5_4_11
@@ -112,6 +110,7 @@
 #   - archiver
 #   - arduino
 #   - bittorrent-sync
+#   - boot2docker-status
 #   - caffeine # http://lightheadsw.com/caffeine/
 #   - calibre # http://calibre-ebook.com/
 #   - ccleaner # http://www.piriform.com/mac/ccleaner
@@ -218,12 +217,16 @@
 #
 #   # Dev
 #   - awscli
+#   - boot2docker
+#   - docker-compose
+#   - docker-machine
 #   - ctags
 #   - gist
 #   - the_silver_searcher
 #   - jq
 #   - keybase
 #   - ncdu
+#   - homebrew/fuse/ntfs-3g
 #   - tree
 #
 #   # Mail

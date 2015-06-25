@@ -10,9 +10,9 @@ class people::salimane {
     'atom-spotify', 'auto-detect-indentation',
     'auto-update-packages', 'autocomplete-plus', 'color-picker', 'command-logger', 'compare-files',
     'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons',
-    'fizzy', 'git-plus', 'html-helper', 'language-docker',
+    'git-plus', 'html-helper', 'language-docker',
     'language-gradle', 'language-jade', 'language-nginx', 'language-puppet', 'language-swift',
-    'linter', 'linter-pep8', 'linter-python-pyflakes', 'markdown-format',
+    'linter', 'markdown-format',
     'minimap', 'minimap-git-diff', 'monokai', 'package-sync', 'pdf-view', 'pretty-json',
     'quotes', 'save-session', 'sassbeautify', 'sort-lines', 'toggle-quotes'
     ]:
@@ -20,7 +20,6 @@ class people::salimane {
   # include btsync # http://labs.bittorrent.com/experiments/sync.html
   # include chrome::beta
   # include dockutil
-  # include docker
   # include firefox::beta
   # include foreman
   include go
@@ -42,7 +41,7 @@ class people::salimane {
   # include osxfuse # http://osxfuse.github.io/
   # include parallels
   # include propane # http://propaneapp.com/
-  ensure_resource('ruby::version', '2.2.1') # install a ruby version
+  ensure_resource('ruby::version', '2.2.2') # install a ruby version
   # include sysctl::ipforwarding
   # include tmux # http://tmux.sourceforge.net/
   # include tunnelblick # http://code.google.com/p/tunnelblick/
