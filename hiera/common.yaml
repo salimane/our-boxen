@@ -127,6 +127,7 @@ ruby::version::alias:
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
+docker::version: 1.7.0
 go::chgo_source: 'https://github.com/salimane/chgo.git'
 go::chgo_version: c6bf021b8304058c70c3429969eff935da2ea099
 osxfuse::version: 2.7.3

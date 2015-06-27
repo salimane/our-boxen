@@ -33,6 +33,11 @@ GITHUBTARBALL
     appcode2 (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-atom
+  specs:
+    atom (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-augeas
   specs:
     augeas (1.3.1)
@@ -101,6 +106,11 @@ GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-docker
+  specs:
+    docker (0.9.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dockutil
@@ -616,6 +626,7 @@ DEPENDENCIES
   alfred (= 1.5.0)
   android (= 1.5.1)
   appcode2 (= 1.0.0)
+  atom (= 1.2.0)
   augeas (= 1.3.1)
   authy (= 1.0.1)
   automake (= 1.0.0)
@@ -631,6 +642,7 @@ DEPENDENCIES
   couchdbx (= 1.3.0)
   diffmerge (= 0.0.5)
   dnsmasq (= 2.0.1)
+  docker (= 0.9.0)
   dockutil (= 0.2.1)
   dropbox (= 1.4.1)
   eclipse (= 2.5.0)

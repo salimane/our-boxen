@@ -8,6 +8,7 @@ boxen::personal::includes:
   - atom
   - chrome::beta
   - dnsmasq
+  - docker
   - firefox::beta
   - foreman # https://github.com/ddollar/foreman
   - gdb
@@ -92,7 +93,6 @@ boxen::personal::osx_apps:
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   - awscli
-  - boot2docker # http://boot2docker.io/
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - homebrew/fuse/ntfs-3g
