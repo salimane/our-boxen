@@ -24,6 +24,7 @@ boxen::personal::includes:
   - osx::universal_access::ctrl_mod_zoom
   - osx::universal_access::enable_scrollwheel_zoom
 
+  - atom
   - dnsmasq
   - gdb
   - git
@@ -46,7 +47,6 @@ boxen::personal::includes:
 boxen::personal::osx_apps:
   - appcleaner # http://www.freemacsoft.net/appcleaner/
   - archiver
-  - atom
   - hipchat
   - iterm2
   - skype
