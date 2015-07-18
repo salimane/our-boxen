@@ -137,3 +137,5 @@ thunderbird::version: 32.2.0
 vagrant::version: 1.7.4
 virtualbox::patch_level: 101573
 virtualbox::version: 5.0.0
+git::package: 'git'
+git::version: '2.4.6'

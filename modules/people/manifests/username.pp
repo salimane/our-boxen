@@ -231,7 +231,6 @@ class people::username {
   # include silverlight
   # include shiftit # https://github.com/fikovnik/ShiftIt/
   # include solr
-  # include sourcetree # http://www.sourcetreeapp.com/
   # include statsd # https://github.com/boxen/puppet-statsd
   # include steam # http://store.steampowered.com/
   # include swig # http://www.swig.org/
