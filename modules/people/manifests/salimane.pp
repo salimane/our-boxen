@@ -9,8 +9,8 @@ class people::salimane {
     'Sublime-Style-Column-Selection', 'atom-alignment',
     'atom-spotify', 'auto-detect-indentation',
     'auto-update-packages', 'autocomplete-plus', 'color-picker', 'command-logger', 'compare-files',
-    'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'go-rename', 'dash'
-    'git-plus', 'html-helper', 'language-docker', 'language-protobuf', 'go-plus'
+    'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'go-rename',
+    'git-plus', 'html-helper', 'language-docker', 'language-protobuf', 'go-plus',
     'language-gradle', 'language-jade', 'language-nginx', 'language-puppet', 'language-swift',
     'linter', 'markdown-format',
     'minimap', 'minimap-git-diff', 'monokai', 'package-sync', 'pdf-view', 'pretty-json',

@@ -91,7 +91,7 @@ boxen::personal::homebrew_packages:
 
 # See https://github.com/boxen/puppet-ruby for docs
 ruby::global::version: "2.2.2"
-ruby::build::ensure: "v20150519"
+ruby::build::ensure: "v20150709"
 ruby::rbenv::ensure: "v0.4.0"
 ruby::rbenv::plugins:
   rbenv-env:
@@ -127,13 +127,13 @@ ruby::version::alias:
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-docker::version: 1.7.0
+docker::version: 1.7.1
 go::chgo_source: 'https://github.com/salimane/chgo.git'
 go::chgo_version: c6bf021b8304058c70c3429969eff935da2ea099
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
-sourcetree::version: 2.0.3
+sourcetree::version: 2.0.5
 thunderbird::version: 32.2.0
-vagrant::version: 1.7.2
-virtualbox::patch_level: 98988
-virtualbox::version: 4.3.26
+vagrant::version: 1.7.4
+virtualbox::patch_level: 101573
+virtualbox::version: 5.0.0
