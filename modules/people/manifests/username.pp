@@ -39,9 +39,6 @@ class people::username {
   # include chrome::chromium
   # include chrome::dev
   # include clojure # http://clojure.org/
-  # include cord # http://cord.sourceforge.net/
-  # include couchdbx # http://couchdb.apache.org/
-  # include diffmerge # https://sourcegear.com/diffmerge/
   # include dockutil
   # dockutil::item { 'Add Skype':
   #   item     => "/Applications/Skype.app",
@@ -49,17 +46,11 @@ class people::username {
   #   action   => "add",
   #   position => 11,
   # }
-  # include dropbox # http://www.dropbox.com/
   # include eclipse::ggts
   # include eclipse::java
   # include eclipse::java # http://www.eclipse.org/
   # include eclipse::jee
   # include elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
-  # include elixir # http://elixir-lang.org/
-  # include emacs # http://www.gnu.org/software/emacs
-  # include erlang # http://www.erlang.org/
-  # include evernote # https://evernote.com/
-  # include fig # http://www.fig.sh/
   # include firefox
   # include firefox::aurora
   # include firefox::beta
@@ -71,22 +62,18 @@ class people::username {
   # class { 'fish': # Install fish, but don't set it as your default shell
   #   chsh => false,
   # }
-  # include flux # http://justgetflux.com/
   # include foreman # https://github.com/ddollar/foreman
   # include go
   # class { 'go::global' :
   #   version => '1.4'
   # }
-  # include googledrive
   # include imagemagick # http://www.imagemagick.org/
-  # include inkscape # http://inkscape.org/
   # include jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
   # include jmeter # http://jmeter.apache.org/
   # class { 'kaleidoscope':
   #   enable_cli   => true,
   #   make_default => false
   # }
-  # include keepassx # http://www.keepassx.org/
   # include karabiner
   # include karabiner::login_item
   # karabiner::remap{ 'controlL2controlL_escape': } # enable remapping left control to left control + escape
@@ -101,13 +88,9 @@ class people::username {
   #   value   => '300',
   #   profile => 'foo'
   # }
-  # include limechat # http://limechat.net/mac/
-  # include macvim # http://code.google.com/p/macvim/
   # include memcached
   # include memcached::lib
   # include mongodb # ENV['BOXEN_MONGODB_PORT'], ENV['BOXEN_MONGODB_URL']
-  # include moreutils # http://joeyh.name/code/moreutils/
-  # include mr # http://joeyh.name/code/mr/
   # include mysql # ENV['BOXEN_MYSQL_PORT'], ENV['BOXEN_MYSQL_URL'], ENV['BOXEN_MYSQL_SOCKET']
   # mysql::db { 'mydb': } # https://github.com/boxen/puppet-mysql
   # include netbeans        # Netbeans All
@@ -124,11 +107,6 @@ class people::username {
   # # ENV['BOXEN_NSQD_TCP_PORT'](default 14150), ENV['BOXEN_NSQD_HTTP_PORT'] (default 14151)
   # # ENV['BOXEN_NSQLOOKUPD_TCP_PORT'](default 14160), ENV['BOXEN_NSQLOOKUPD_HTTP_PORT'](default 14161)
   # include nsq
-  # include ntfs_3g
-  # include oclint # http://oclint.org/
-  # include oclint::dev
-  # include onepassword # https://agilebits.com/onepassword
-  # include onyx # http://www.titanium.free.fr/downloadonyx.php
   # include osx::disable_app_quarantine
   # include osx::dock::2d
   # include osx::dock::autohide
@@ -161,8 +139,6 @@ class people::username {
   # include osx::universal_access::ctrl_mod_zoom
   # include osx::universal_access::enable_scrollwheel_zoom
   # osx::recovery_message { 'If this Mac is found, please call 123-456-7890': } # https://github.com/boxen/puppet-osx
-  # include osxfuse # http://osxfuse.github.io/
-  # include parallels
   # include phantomjs # Installs Phantomenv for PhantomJS version management
   # phantomjs::version { '1.9.0': } # Install PhantomJS version 1.9.0
   # phantomjs::global { '1.9.0': } # Set the global version of PhantomJS (version should be installed already)
@@ -192,11 +168,8 @@ class people::username {
   #     php           => '5.3.23',
   #   }
   # } # https://github.com/boxen/puppet-php
-  # include phpstorm # http://www.jetbrains.com/phpstorm/
-  # include pixman # http://pixman.org/
   # include postgresql
   # postgresql::db { 'mydb': }
-  # include propane # http://propaneapp.com/
   # # manage OS X plist files, e.g. disable Gatekeeper in 10.8
   # property_list_key { 'Disable Gatekeeper':
   #   ensure => present,
@@ -204,10 +177,6 @@ class people::username {
   #   key    => 'enabled',
   #   value  => 'no',
   # }
-  # include protobuf # http://code.google.com/p/protobuf/
-  # include pycharm # http://www.jetbrains.com/pycharm/
-  # include qt
-  # include rdio # http://en.rdio.com/
   # include redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
   # repository { # clone some code repositories to some folder
   #   '/path/to/code':
@@ -228,42 +197,12 @@ class people::username {
   #   ruby    => "2.2.1",
   #   version => '~> 1.8.3'
   # }
-  # include silverlight
-  # include shiftit # https://github.com/fikovnik/ShiftIt/
   # include solr
   # include statsd # https://github.com/boxen/puppet-statsd
-  # include steam # http://store.steampowered.com/
-  # include swig # http://www.swig.org/
   # sysctl::set { 'somekey':
   #   value => 'somevalue'
   # }
   # include sysctl::ipforwarding
-  # class { 'thunderbird':
-  #   version => '24.2.0',
-  #   locale  => 'fr',
-  # }
-
-  # include tmux # http://tmux.sourceforge.net/
-  # include transmission # http://www.transmissionbt.com/
-  # include tunnelblick # http://code.google.com/p/tunnelblick/
-  # include tunnelblick::beta
-  # include utorrent # http://www.utorrent.com/
-  # include vim # http://www.vim.org/ vim along with vim-pathogen,
-  # vim::bundle { [
-  #   'scrooloose/syntastic',
-  #   'sjl/gundo.vim'
-  # ]: }
-  # # Example of how you can manage your .vimrc
-  # file { "${vim::vimrc}":
-  #   target  => "/Users/${::boxen_user}/.dotfiles/.vimrc",
-  #   require => Repository["/Users/${::boxen_user}/.dotfiles"]
-  # }
-  # # Or, simply,
-  # file { "${vim::vimrc}": ensure => exists }
-
-  # include wkhtmltopdf
-  # class { 'vmware_fusion': version => '6.0.2-1398658' } # https://www.vmware.com/products/fusion/
-  # include wuala # https://www.wuala.com/
   # include zeromq # http://zeromq.org/
   # include zookeeper # http://zookeeper.apache.org/
   # include zsh # Installs zsh and makes it your default shell. For justice.

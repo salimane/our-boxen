@@ -17,24 +17,12 @@ boxen::personal::includes:
   - hub
   - imagemagick # http://www.imagemagick.org/
   - java
-  - libevent
-  - libpng
-  - moreutils # http://joeyh.name/code/moreutils/
-  - mr # http://joeyh.name/code/mr/
   - nginx # http://wiki.nginx.org/Main
-  - openssl
-  - pcre
-  - pixman # http://pixman.org/
   - python
   - ruby
-  - screen
   - sysctl::ipforwarding
-  - tmux # http://tmux.sourceforge.net/
-  - tunnelblick # http://code.google.com/p/tunnelblick/
   - vagrant
   - virtualbox
-  - wget
-  - xpdf
   - zsh # Installs zsh and makes it your default shell. For justice.
 
 # driven by homebrew-cask http://caskroom.io/search
@@ -55,7 +43,6 @@ boxen::personal::osx_apps:
   # - google-hangouts error
   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
   # - gpgtools error
-  # - graphviz # http://www.graphviz.org/
   # - heroku-toolbelt # http://heroku.com/ error
   - hipchat
   - imageoptim
@@ -88,6 +75,7 @@ boxen::personal::osx_apps:
   - spotify # https://www.spotify.com/
   - torbrowser
   - trello-x # http://lingsdesigns.com/trellox/
+  - tunnelblick # http://code.google.com/p/tunnelblick/
   - vlc # http://www.videolan.org/vlc/index.html
   # - wkhtmltopdf
 
@@ -97,7 +85,19 @@ boxen::personal::homebrew_packages:
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - homebrew/fuse/ntfs-3g
+  - htop-osx
   - jq
-  - pv
+  - libevent
+  - libpng
+  - moreutils # http://joeyh.name/code/moreutils/
+  - mr # http://joeyh.name/code/mr/
   - ncdu
+  - openssl
+  - pcre
+  - pixman # http://pixman.org/
+  - pv
+  - screen
+  - tmux # http://tmux.sourceforge.net/
   - tree
+  - wget
+  - xpdf

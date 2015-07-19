@@ -42,14 +42,10 @@
 #   - chrome::chromium
 #   - chrome::dev
 #   - clojure # http://clojure.org/
-#   - cord # http://cord.sourceforge.net/
-#   - couchdbx # http://couchdb.apache.org/
 #   - dnsmasq
 #   - eclipse::ggts
 #   - elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
-#   - elixir # http://elixir-lang.org/
 #   - erlang # http://www.erlang.org/
-#   - fig # http://www.fig.sh/
 #   - firefox::aurora
 #   - firefox::beta
 #   - firefox::nightly
@@ -61,40 +57,21 @@
 #   - imagemagick # http://www.imagemagick.org/
 #   - java
 #   - jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
-#   - jmeter # http://jmeter.apache.org/
-#   - libevent
-#   - libpng
+#   - karabiner
 #   - memcached
 #   - memcached::lib
 #   - mongodb # ENV['BOXEN_MONGODB_PORT'], ENV['BOXEN_MONGODB_URL']
-#   - moreutils # http://joeyh.name/code/moreutils/
-#   - mr # http://joeyh.name/code/mr/
-#   - netbeans::jee   # Netbeans Java EE
-#   - netbeans::jse   # Netbeans Java SE
 #   - nginx # http://wiki.nginx.org/Main
-#   - openssl
-#   - pcre
 #   - php::5_4_11
 #   - php::composer
 #   - php::fpm::5_4_11
-#   - pixman # http://pixman.org/
-#   - protobuf # http://code.google.com/p/protobuf/
 #   - python
-#   - qt
 #   - redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
 #   - riak
 #   - ruby
-#   - screen
-#   - shiftit # https://github.com/fikovnik/ShiftIt/
 #   - solr
 #   - statsd # https://github.com/boxen/puppet-statsd
-#   - swig # http://www.swig.org/
-#   - tmux # http://tmux.sourceforge.net/
-#   - tunnelblick # http://code.google.com/p/tunnelblick/
-#   - tunnelblick::beta
 #   - vagrant
-#   - wget
-#   - xpdf
 #   - zeromq # http://zeromq.org/
 #   - zookeeper # http://zookeeper.apache.org/
 #   - zsh # Installs zsh and makes it your default shell. For justice.
@@ -105,6 +82,7 @@
 #   - adium # https://adium.im/
 #   - adobe-creative-cloud
 #   - alfred
+#   - apache-couchdb
 #   - appcleaner # http://www.freemacsoft.net/appcleaner/
 #   - appcode # http://www.jetbrains.com/objc/index.html
 #   - archiver
@@ -117,6 +95,7 @@
 #   - charles
 #   - cinch # http://www.irradiatedsoftware.com/cinch
 #   - clipmenu # http://www.clipmenu.com/
+#   - cord # http://cord.sourceforge.net/
 #   - dash # http://kapeli.com/dash
 #   - diffmerge # https://sourcegear.com/diffmerge/
 #   - dropbox # http://www.dropbox.com/
@@ -126,9 +105,9 @@
 #   - evernote # https://evernote.com/
 #   - firefox
 #   - flux # http://justgetflux.com/
+#   - gfxcardstatus
 #   - gimp # http://www.gimp.org/
 #   - github # mac.github.com
-#   - gfxcardstatus
 #   - google-drive
 #   - google-hangouts
 #   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
@@ -149,11 +128,12 @@
 #   - lastpass # https://lastpass.com/
 #   - libreoffice # http://www.libreoffice.org/
 #   - licecap # http://www.cockos.com/licecap/
-#   - macs-fan-control
 #   - limechat # http://limechat.net/mac/
+#   - macs-fan-control
 #   - macvim # http://code.google.com/p/macvim/
 #   - magican # http://www.magicansoft.com/
 #   - minecraft
+#   - mplayerx
 #   - netbeans        # Netbeans All
 #   - netbeans-cpp   # Netbeans C/C++
 #   - netbeans-php   # Netbeans PHP
@@ -178,6 +158,7 @@
 #   - rdio
 #   - rubymine # http://www.jetbrains.com/ruby/
 #   - sequel-pro # http://www.sequelpro.com/ mysql gui admin
+#   - shiftit # https://github.com/fikovnik/ShiftIt/
 #   - silverlight
 #   - skitch # https://github.com/boxen/puppet-skitch
 #   - skype
@@ -190,9 +171,11 @@
 #   - steam # http://store.steampowered.com/
 #   - sublime-text
 #   - things
+#   - thunderbird
 #   - tiled
 #   - torbrowser
 #   - transmission # http://www.transmissionbt.com/
+#   - tunnelblick # http://code.google.com/p/tunnelblick/
 #   - utorrent # http://www.utorrent.com/
 #   - virtualbox
 #   - vlc # http://www.videolan.org/vlc/index.html
@@ -202,37 +185,49 @@
 #   - wuala # https://www.wuala.com/
 #
 # boxen::personal::homebrew_packages:
-#   # Network Tools
-#   - httpry
-#   - ipcalc
-#   - mtr
-#
-#   # System
-#   - htop-osx
-#   - pstree
-#   - pv
-#   - spark
-#   - watch
-#   - terminal-notifier
-#
-#   # Dev
+#   - automake
 #   - awscli
 #   - boot2docker
+#   - cmake
+#   - contacts
+#   - ctags
 #   - docker-compose
 #   - docker-machine
-#   - ctags
+#   - elixir
 #   - gist
-#   - the_silver_searcher
+#   - homebrew/fuse/ntfs-3g
+#   - htop-osx
+#   - httpry
+#   - ipcalc
+#   - isync
+#   - jmeter
 #   - jq
 #   - keybase
-#   - ncdu
-#   - homebrew/fuse/ntfs-3g
-#   - tree
-#
-#   # Mail
-#   - w3m
-#   - notmuch
-#   - urlview
-#   - contacts
+#   - libevent
+#   - libpng
+#   - moreutils
+#   - mr # http://joeyh.name/code/mr/
 #   - msmtp
-#   - isync
+#   - mtr
+#   - ncdu
+#   - notmuch
+#   - pcre
+#   - pixman # http://pixman.org/
+#   - protobuf
+#   - pstree
+#   - pv
+#   - qt
+#   - screen
+#   - spark
+#   - swig # http://www.swig.org/
+#   - terminal-notifier
+#   - the_silver_searcher
+#   - tmux # http://tmux.sourceforge.net/
+#   - tree
+#   - urlview
+#   - vim
+#   - w3m
+#   - watch
+#   - wget
+#   - xctool
+#   - xpdf
