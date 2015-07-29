@@ -99,9 +99,9 @@ class people::username {
   # include netbeans::cpp   # Netbeans C/C++
   # include netbeans::php   # Netbeans PHP
   # include nginx # http://wiki.nginx.org/Main
-  # ensure_resource('nodejs::version', 'v0.10') # install any arbitrary nodejs version
+  # ensure_resource('nodejs::version', '0.12.7') # install any arbitrary nodejs version
   # nodejs::module { 'bower': # install some npm modules
-  #   node_version => 'v0.10'
+  #   node_version => '0.12.7'
   # }
   # # launch nsqd and nsqlookupd, and point nsqd at nsqlookupd. nsqadmin web UI at localhost:14171.
   # # ENV['BOXEN_NSQD_TCP_PORT'](default 14150), ENV['BOXEN_NSQD_HTTP_PORT'] (default 14151)

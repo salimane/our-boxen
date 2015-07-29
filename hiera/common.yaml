@@ -138,4 +138,6 @@ vagrant::version: 1.7.4
 virtualbox::patch_level: 101573
 virtualbox::version: 5.0.0
 git::package: 'git'
-git::version: '2.4.6'
+git::version: '2.5.0'
+nodejs::build::ensure: '1382a3e14a0d0b7c6ed0460504f01d9b8e45b235'
+nodejs::nodenv::ensure: v0.3.0
