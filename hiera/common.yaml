@@ -30,7 +30,6 @@ boxen::personal::includes:
   - git
   - homebrew # http://mxcl.github.com/homebrew
   - hub
-  - java
   - libevent
   - libpng
   - openssl
@@ -49,8 +48,10 @@ boxen::personal::osx_apps:
   - archiver
   - hipchat
   - iterm2
+  - java
   - skype
   - sublime-text
+  - the-unarchiver # http://unarchiver.c3.cx/unarchiver
 
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
@@ -117,9 +118,6 @@ ruby::rbenv::plugins:
     source: sstephenson/rbenv-vars
 ruby::version::alias:
   2.0.0: 2.0.0-p645
-
-# See https://github.com/boxen/puppet-java for docs
-# java::update_version: 80
 
 # Use default ports for databases
 # mysql::config::port: 3306

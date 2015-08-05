@@ -16,7 +16,6 @@ boxen::personal::includes:
   - homebrew # http://mxcl.github.com/homebrew
   - hub
   - imagemagick # http://www.imagemagick.org/
-  - java
   - nginx # http://wiki.nginx.org/Main
   - python
   - ruby
@@ -50,6 +49,7 @@ boxen::personal::osx_apps:
   - intellij-idea-ce
   - invisionsync
   - iterm2
+  - java
   - jenkins-menu
   - lastpass # https://lastpass.com/
   - libreoffice # http://www.libreoffice.org/
@@ -73,6 +73,7 @@ boxen::personal::osx_apps:
   - sourcetree
   - spectacle # http://spectacleapp.com/
   - spotify # https://www.spotify.com/
+  - the-unarchiver # http://unarchiver.c3.cx/unarchiver
   - torbrowser
   - trello-x # http://lingsdesigns.com/trellox/
   - tunnelblick # http://code.google.com/p/tunnelblick/

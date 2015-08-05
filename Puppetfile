@@ -49,7 +49,7 @@ mod 'go',
   :ref => 'class_versions'
 github "homebrew",   "1.13.0"
 github "hub",        "1.4.1"
-github "inifile",    "1.4.0", :repo => "puppetlabs/puppetlabs-inifile"
+github "inifile",    "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.6"
 github "nodejs",     "5.0.0"
 github "openssl",    "1.0.0"

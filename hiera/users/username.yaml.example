@@ -55,7 +55,6 @@
 #   - homebrew # http://mxcl.github.com/homebrew
 #   - hub
 #   - imagemagick # http://www.imagemagick.org/
-#   - java
 #   - jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
 #   - karabiner
 #   - memcached
@@ -123,6 +122,7 @@
 #   - invisionsync
 #   - istat-menus
 #   - iterm2
+#   - java
 #   - jenkins-menu
 #   - keepassx # http://www.keepassx.org/
 #   - lastpass # https://lastpass.com/
@@ -170,6 +170,7 @@
 #   - spotify # https://www.spotify.com/
 #   - steam # http://store.steampowered.com/
 #   - sublime-text
+#   - the-unarchiver # http://unarchiver.c3.cx/unarchiver
 #   - things
 #   - thunderbird
 #   - tiled

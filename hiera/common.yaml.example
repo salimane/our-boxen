@@ -44,6 +44,3 @@ ruby::rbenv_plugins:
     source: sstephenson/rbenv-vars
 ruby::version::alias:
   2.0.0: 2.0.0-p645
-
-# See https://github.com/boxen/puppet-java for docs
-# java::update_version: 80
