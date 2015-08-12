@@ -106,7 +106,7 @@
 #   - flux # http://justgetflux.com/
 #   - gfxcardstatus
 #   - gimp # http://www.gimp.org/
-#   - github # mac.github.com
+#   - github-desktop # https://desktop.github.com/
 #   - google-drive
 #   - google-hangouts
 #   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
@@ -196,6 +196,7 @@
 #   - docker-machine
 #   - elixir
 #   - gist
+#   - go
 #   - homebrew/fuse/ntfs-3g
 #   - htop-osx
 #   - httpry

@@ -8,7 +8,6 @@ boxen::personal::includes:
   - atom
   - chrome::beta
   - dnsmasq
-  - docker
   - firefox::beta
   - foreman # https://github.com/ddollar/foreman
   - gdb
@@ -38,7 +37,7 @@ boxen::personal::osx_apps:
   - clipmenu # http://www.clipmenu.com/
   - dash # http://kapeli.com/dash
   - gimp # http://www.gimp.org/
-  - github # mac.github.com
+  - github-desktop # https://desktop.github.com/
   # - google-hangouts error
   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
   # - gpgtools error
@@ -56,7 +55,7 @@ boxen::personal::osx_apps:
   - licecap # http://www.cockos.com/licecap/
   - macs-fan-control
   # - magican # http://www.magicansoft.com/ error
-  # - nmap error
+  - nmap # error
   - onyx # http://www.titanium.free.fr/downloadonyx.php
   - opera
   # - osxfuse # http://osxfuse.github.io/ error
@@ -83,8 +82,10 @@ boxen::personal::osx_apps:
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   - awscli
+  - boot2docker
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
+  - go
   - homebrew/fuse/ntfs-3g
   - htop-osx
   - jq

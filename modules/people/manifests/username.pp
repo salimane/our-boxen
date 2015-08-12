@@ -63,10 +63,6 @@ class people::username {
   #   chsh => false,
   # }
   # include foreman # https://github.com/ddollar/foreman
-  # include go
-  # class { 'go::global' :
-  #   version => '1.4'
-  # }
   # include imagemagick # http://www.imagemagick.org/
   # include jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
   # include jmeter # http://jmeter.apache.org/

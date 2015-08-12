@@ -43,10 +43,6 @@ github "dnsmasq",    "2.0.1"
 github "foreman",    "1.2.0"
 github "gcc",        "3.0.2"
 github "git",        "2.7.92"
-# dev "go"#,         "2.1.0"
-mod 'go',
-  :git => "https://github.com/salimane/puppet-go",
-  :ref => 'class_versions'
 github "homebrew",   "1.13.0"
 github "hub",        "1.4.1"
 github "inifile",    "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
@@ -61,7 +57,7 @@ github "vcsrepo",    "1.3.1", :repo => "puppetlabs/puppetlabs-vcsrepo"
 mod 'ruby',
   :git => "https://github.com/salimane/puppet-ruby",
   :ref => 'plugin'
-github "stdlib",     "4.7.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "stdlib",     "4.8.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"
 

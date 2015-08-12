@@ -18,10 +18,6 @@ class people::salimane {
     ]:
   }
 
-  include go
-  class { 'go::global' :
-    version => '1.4'
-  }
   osx::recovery_message { 'If this Mac is found, please call +4915732675528': }
   class { 'osx::global::natural_mouse_scrolling' : enabled => false }
   class { 'osx::dock::pin_position' : position => 'middle'}
