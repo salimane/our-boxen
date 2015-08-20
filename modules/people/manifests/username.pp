@@ -185,13 +185,13 @@ class people::username {
   # }
   # include riak
   # class { 'ruby::global': # Set the global default ruby (auto-installs it if it can)
-  #   version => '2.2.1'
+  #   version => '2.2.3'
   # }
-  # ensure_resource('ruby::version', '2.2.1') # install a ruby version
+  # ensure_resource('ruby::version', '2.2.3') # install a ruby version
   # ruby::gem { "bundler for ${version}": # ensure a gem is installed for a certain ruby version
   #   gem     => 'bundler',
-  #   ruby    => "2.2.1",
-  #   version => '~> 1.8.3'
+  #   ruby    => "2.2.3",
+  #   version => '~> 1.10.6'
   # }
   # include solr
   # include statsd # https://github.com/boxen/puppet-statsd

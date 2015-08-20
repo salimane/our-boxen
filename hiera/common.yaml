@@ -91,8 +91,8 @@ boxen::personal::homebrew_packages:
   - gnu-tar
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::global::version: "2.2.2"
-ruby::build::ensure: "v20150709"
+ruby::global::version: "2.2.3"
+ruby::build::ensure: "v20150818"
 ruby::rbenv::ensure: "v0.4.0"
 ruby::rbenv::plugins:
   rbenv-env:
@@ -125,16 +125,16 @@ ruby::version::alias:
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: 8db52dd2ef74e55ea439072567b559b751ee71d2
+homebrew::min_revision: 6aa5db5178afb5998257dc537caeb8f1c45bd72c
 homebrew::repo: 'homebrew/homebrew'
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
 sourcetree::version: 2.0.5
 thunderbird::version: 32.2.0
 vagrant::version: 1.7.4
-virtualbox::patch_level: 101573
-virtualbox::version: 5.0.0
+virtualbox::patch_level: 102096
+virtualbox::version: 5.0.2
 git::package: 'git'
 git::version: '2.5.0'
-nodejs::build::ensure: '1382a3e14a0d0b7c6ed0460504f01d9b8e45b235'
+nodejs::build::ensure: '295e0d6819c53e80ed128b5baf1a8e5ec5620a7e'
 nodejs::nodenv::ensure: v0.3.0
