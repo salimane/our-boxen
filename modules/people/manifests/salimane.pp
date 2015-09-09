@@ -2,6 +2,11 @@
 class people::salimane {
   # include android::platform_tools
   include android::sdk
+  android::version { '23':
+    ensure  => present,
+    options => ['platform', 'add_on'],
+  }
+  android::build_tools { '21.1.2': }
   # include android::tools
   include android::studio
   include atom

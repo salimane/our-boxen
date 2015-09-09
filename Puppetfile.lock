@@ -23,7 +23,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-atom
   specs:
-    atom (1.2.0)
+    atom (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-augeas
@@ -88,7 +88,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-elasticsearch
   specs:
-    elasticsearch (2.8.0)
+    elasticsearch (2.9.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-erlang
@@ -183,7 +183,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (5.0.1)
+    nodejs (5.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-nsq
@@ -228,7 +228,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-python
   specs:
-    python (2.0.0)
+    python (2.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-redis
@@ -303,12 +303,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.4.1)
+    inifile (1.4.2)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.8.0)
+    stdlib (4.9.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-vcsrepo
@@ -324,7 +324,7 @@ DEPENDENCIES
   alfred (= 1.5.0)
   android (= 1.5.1)
   appcode2 (= 1.0.0)
-  atom (= 1.2.0)
+  atom (= 1.3.0)
   augeas (= 1.3.1)
   bash (= 1.2.0)
   boxen (= 3.11.0)
@@ -337,7 +337,7 @@ DEPENDENCIES
   docker (= 0.9.0)
   dockutil (= 0.2.1)
   eclipse (= 2.5.0)
-  elasticsearch (= 2.8.0)
+  elasticsearch (= 2.9.0)
   erlang (= 1.0.4)
   firefox (= 1.2.3)
   fish (= 1.0.0)
@@ -348,7 +348,7 @@ DEPENDENCIES
   homebrew (= 2.0.0)
   hub (= 1.4.1)
   imagemagick (= 1.3.0)
-  inifile (= 1.4.1)
+  inifile (= 1.4.2)
   java (= 1.8.4)
   jenkins (= 1.2.0)
   jmeter (= 0.1.5)
@@ -359,7 +359,7 @@ DEPENDENCIES
   mongodb (= 2.6.1)
   mysql (= 2.1.2)
   nginx (= 1.4.6)
-  nodejs (= 5.0.1)
+  nodejs (= 5.0.3)
   nsq (= 1.0.1)
   openssl (= 1.0.0)
   osx (= 2.8.0)
@@ -368,14 +368,14 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   postgresql (= 4.0.1)
   property_list_key (= 0.1.0)
-  python (= 2.0.0)
+  python (= 2.0.1)
   redis (= 3.2.0)
   repository (= 2.4.1)
   riak (= 1.1.3)
   ruby (>= 0)
   solr (= 1.0.4)
   statsd (= 1.0.3)
-  stdlib (= 4.8.0)
+  stdlib (= 4.9.0)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   vagrant (= 3.3.3)

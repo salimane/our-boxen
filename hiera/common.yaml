@@ -125,16 +125,16 @@ ruby::version::alias:
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: 6aa5db5178afb5998257dc537caeb8f1c45bd72c
+homebrew::min_revision: 48259a68af142df44d08c69c2a6a38345d81d69c
 homebrew::repo: 'homebrew/homebrew'
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
 sourcetree::version: 2.0.5
 thunderbird::version: 32.2.0
 vagrant::version: 1.7.4
-virtualbox::patch_level: 102096
-virtualbox::version: 5.0.2
+virtualbox::patch_level: 102546
+virtualbox::version: 5.0.4
 git::package: 'git'
-git::version: '2.5.0'
-nodejs::build::ensure: '295e0d6819c53e80ed128b5baf1a8e5ec5620a7e'
+git::version: '2.5.1'
+nodejs::build::ensure: '80cb791b63debce35110b55590cf3b9f953d72db'
 nodejs::nodenv::ensure: v0.3.0
