@@ -47,7 +47,7 @@ github "homebrew",   "2.0.0"
 github "hub",        "1.4.1"
 github "inifile",    "1.4.2", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.6"
-github "nodejs",     "5.0.3"
+github "nodejs",     "5.0.5"
 github "openssl",    "1.0.0"
 github "phantomjs",  "3.0.0"
 github "pkgconfig",  "1.0.0"
@@ -71,7 +71,7 @@ eval(File.read(people_puppetfile)) if File.exist?(people_puppetfile)
 
 
 github "alfred", "1.5.0"
-github "android", "1.5.1"
+github "android", "1.6.0"
 github "appcode2", "1.0.0"
 github "atom", "1.3.0"
 github "augeas", "1.3.1"

@@ -13,7 +13,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-android
   specs:
-    android (1.5.1)
+    android (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-appcode2
@@ -183,7 +183,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (5.0.3)
+    nodejs (5.0.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-nsq
@@ -322,7 +322,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   alfred (= 1.5.0)
-  android (= 1.5.1)
+  android (= 1.6.0)
   appcode2 (= 1.0.0)
   atom (= 1.3.0)
   augeas (= 1.3.1)
@@ -359,7 +359,7 @@ DEPENDENCIES
   mongodb (= 2.6.1)
   mysql (= 2.1.2)
   nginx (= 1.4.6)
-  nodejs (= 5.0.3)
+  nodejs (= 5.0.5)
   nsq (= 1.0.1)
   openssl (= 1.0.0)
   osx (= 2.8.0)
