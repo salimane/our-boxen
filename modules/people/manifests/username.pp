@@ -51,13 +51,6 @@ class people::username {
   # include eclipse::java # http://www.eclipse.org/
   # include eclipse::jee
   # include elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
-  # include firefox
-  # include firefox::aurora
-  # include firefox::beta
-  # include firefox::nightly
-  # class { 'firefox':
-  #   version => '26.0b1'
-  # }
   # include fish
   # class { 'fish': # Install fish, but don't set it as your default shell
   #   chsh => false,

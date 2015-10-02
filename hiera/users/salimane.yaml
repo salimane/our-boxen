@@ -8,7 +8,6 @@ boxen::personal::includes:
   - atom
   - chrome::beta
   - dnsmasq
-  - firefox::beta
   - foreman # https://github.com/ddollar/foreman
   - gdb
   - git
@@ -36,6 +35,7 @@ boxen::personal::osx_apps:
   - cinch # http://www.irradiatedsoftware.com/cinch
   - clipmenu # http://www.clipmenu.com/
   - dash # http://kapeli.com/dash
+  - firefox
   - gimp # http://www.gimp.org/
   - github-desktop # https://desktop.github.com/
   # - google-hangouts error

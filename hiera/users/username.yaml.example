@@ -46,9 +46,6 @@
 #   - eclipse::ggts
 #   - elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
 #   - erlang # http://www.erlang.org/
-#   - firefox::aurora
-#   - firefox::beta
-#   - firefox::nightly
 #   - foreman # https://github.com/ddollar/foreman
 #   - gdb
 #   - git
