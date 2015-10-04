@@ -185,10 +185,10 @@
 # boxen::personal::homebrew_packages:
 #   - automake
 #   - awscli
-#   - boot2docker
 #   - cmake
 #   - contacts
 #   - ctags
+#   - docker
 #   - docker-compose
 #   - docker-machine
 #   - elixir

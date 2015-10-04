@@ -82,7 +82,7 @@ boxen::personal::osx_apps:
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   - awscli
-  - boot2docker
+  - docker
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - go
