@@ -16,15 +16,18 @@ class people::username {
   # include appcode2 # http://www.jetbrains.com/objc/index.html
   # include atom
   # atom::package { [
-  #   'Sublime-Style-Column-Selection', 'atom-alignment',
-  #   'atom-spotify', 'auto-detect-indentation',
-  #   'auto-update-packages', 'autocomplete-plus', 'color-picker', 'command-logger', 'compare-files',
-  #   'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'go-rename',
-  #   'git-plus', 'html-helper', 'language-docker', 'language-protobuf', 'go-plus',
-  #   'language-gradle', 'language-jade', 'language-nginx', 'language-puppet', 'language-swift',
-  #   'linter', 'markdown-format',
-  #   'minimap', 'minimap-git-diff', 'monokai', 'package-sync', 'pdf-view', 'pretty-json',
-  #   'quotes', 'save-session', 'sassbeautify', 'sort-lines', 'toggle-quotes'
+  # 'auto-detect-indentation', 'atom-alignment',
+  # 'auto-update-packages', 'autocomplete-plus', 'color-picker',
+  # 'command-logger', 'compare-files',
+  # 'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'go-rename',
+  # 'git-plus', 'language-docker', 'language-protobuf', 'go-plus',
+  # 'language-gradle', 'language-jade', 'language-nginx',
+  # 'language-puppet', 'language-swift',
+  # 'linter', 'linter-puppet-lint', 'markdown-format',
+  # 'minimap', 'minimap-git-diff', 'monokai', 'package-sync',
+  # 'pdf-view', 'pretty-json',
+  # 'quotes', 'save-session', 'sort-lines', 'toggle-quotes',
+  # 'Sublime-Style-Column-Selection'
   #   ]:
   # }
   # include btsync # http://labs.bittorrent.com/experiments/sync.html
