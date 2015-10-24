@@ -153,7 +153,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-karabiner
   specs:
-    karabiner (1.0.7)
+    karabiner (1.0.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-memcached
@@ -347,7 +347,7 @@ DEPENDENCIES
   jenkins (= 1.2.0)
   jmeter (= 0.1.5)
   kaleidoscope (= 1.0.5)
-  karabiner (= 1.0.7)
+  karabiner (= 1.0.8)
   memcached (= 2.0.0)
   module_data (= 0.0.4)
   mongodb (= 2.6.1)
