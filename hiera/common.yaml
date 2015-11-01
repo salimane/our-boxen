@@ -125,7 +125,7 @@ ruby::version::alias:
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: 1c9370340cd5e0fb482b725d0d78462c28eadde3
+homebrew::min_revision: daf7b96b8fb064c359910fbe83abe95a6e8dd828
 homebrew::repo: 'homebrew/homebrew'
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
@@ -136,5 +136,5 @@ virtualbox::patch_level: 103449
 virtualbox::version: 5.0.8
 git::package: 'git'
 git::version: '2.6.2'
-nodejs::build::ensure: 'a400214bd9e49cc7dac61c19e405901382476863'
+nodejs::build::ensure: 'f52709e8577cc96516ea14a8ae0106bcd63bf0dd'
 nodejs::nodenv::ensure: v0.4.0
