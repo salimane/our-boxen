@@ -9,7 +9,7 @@
 
 # See https://github.com/boxen/puppet-ruby for docs
 ruby::global::version: "2.2.3"
-ruby::build::ensure: "v20150818"
+ruby::build::ensure: "v20151024"
 ruby::rbenv::ensure: "v0.4.0"
 ruby::rbenv_plugins:
   rbenv-use:
@@ -43,4 +43,4 @@ ruby::rbenv_plugins:
     ensure: v1.2.0
     source: sstephenson/rbenv-vars
 ruby::version::alias:
-  2.0.0: 2.0.0-p645
+  2.0.0: 2.0.0-p647
