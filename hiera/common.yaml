@@ -91,9 +91,6 @@ boxen::personal::homebrew_packages:
   - gnu-tar
 
 # See https://github.com/boxen/puppet-ruby for docs
-ruby::global::version: "2.2.3"
-ruby::build::ensure: "v20150928"
-ruby::rbenv::ensure: "v0.4.0"
 ruby::rbenv::plugins:
   rbenv-env:
     ensure: 1.1
@@ -118,14 +115,16 @@ ruby::rbenv::plugins:
     source: sstephenson/rbenv-vars
 ruby::version::alias:
   2.0.0: 2.0.0-p645
-
+ruby::global::version: "2.2.3"
+ruby::build::ensure: "01abf988f4e56b626b20f31bcb9f7769a5758b42"
+ruby::rbenv::ensure: "c18a3f9042af7cae59780dda066ef0d1b9447278"
 # Use default ports for databases
 # mysql::config::port: 3306
 # postgresql::port: 5432
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: daf7b96b8fb064c359910fbe83abe95a6e8dd828
+homebrew::min_revision: fda36921cb2d2d7875a8c2e0bc44715477ecf5e0
 homebrew::repo: 'homebrew/homebrew'
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
@@ -135,6 +134,6 @@ vagrant::version: 1.7.4
 virtualbox::patch_level: 103449
 virtualbox::version: 5.0.8
 git::package: 'git'
-git::version: '2.6.2'
-nodejs::build::ensure: 'f52709e8577cc96516ea14a8ae0106bcd63bf0dd'
+git::version: '2.6.3'
+nodejs::build::ensure: '8cbf7421f00cb4a189cf6e84fdfebaa4ebea3c27'
 nodejs::nodenv::ensure: v0.4.0
