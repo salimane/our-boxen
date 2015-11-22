@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/salimane/puppet-boxen
+  ref: brew_latest
+  sha: 1da5bf6ce9c902b959dd486c5327aef824cfcec0
+  specs:
+    boxen (0.0.1)
+
+GIT
   remote: https://github.com/salimane/puppet-ruby
   ref: plugin
   sha: a2ed663f77ee171259f3f70805f0fbf0b4905e03
@@ -34,11 +41,6 @@ GITHUBTARBALL
   remote: boxen/puppet-bash
   specs:
     bash (1.2.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-boxen
-  specs:
-    boxen (3.11.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -322,7 +324,7 @@ DEPENDENCIES
   atom (= 1.3.0)
   augeas (= 1.3.1)
   bash (= 1.2.0)
-  boxen (= 3.11.0)
+  boxen (>= 0)
   brewcask (= 0.0.6)
   btsync (= 1.0.0)
   charles (= 1.1.0)

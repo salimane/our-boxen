@@ -99,7 +99,9 @@ boxen::personal::homebrew_packages:
   - pixman # http://pixman.org/
   - pv
   - screen
+  - the_silver_searcher # https://github.com/ggreer/the_silver_searcher
   - tmux # http://tmux.sourceforge.net/
   - tree
+  - watch
   - wget
   - xpdf

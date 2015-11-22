@@ -29,7 +29,10 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-github "boxen",      "3.11.0"
+# github "boxen",      "3.11.0"
+mod 'boxen',
+  :git => "https://github.com/salimane/puppet-boxen",
+  :ref => 'brew_latest'
 
 # Support for default hiera data in modules
 
