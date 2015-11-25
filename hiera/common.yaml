@@ -118,14 +118,14 @@ ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "2.2.3"
 ruby::build::ensure: bd222051df1240f77f4b0f24bd809812b9357867
-ruby::rbenv::ensure: 5fb9c84e14c8123b2591d22e248f045c7f8d8a2c
+ruby::rbenv::ensure: 75a1dd25cd74a03255dc7fdc5fad77ea13e261e0
 # Use default ports for databases
 # mysql::config::port: 3306
 # postgresql::port: 5432
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: 2e74d305708c19898a804669b4161bcad3088609
+homebrew::min_revision: 677fafb8e48537603607b06f6de49674c5cb0995
 homebrew::repo: 'homebrew/homebrew'
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
@@ -137,4 +137,4 @@ virtualbox::version: 5.0.10
 git::package: 'git'
 git::version: '2.6.3'
 nodejs::build::ensure: c5fac71ef20a85841c7fd76f751ed11e2f8625ec
-nodejs::nodenv::ensure: 315c6a13ec88372ab04366d58e9cbde2acfb31cb
+nodejs::nodenv::ensure: 1039d2e48e253d9f1a11c5132b433510565e60cd
