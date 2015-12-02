@@ -29,10 +29,7 @@ end
 # Includes many of our custom types and providers, as well as global
 # config. Required.
 
-# github "boxen",      "3.11.0"
-mod 'boxen',
-  :git => "https://github.com/salimane/puppet-boxen",
-  :ref => 'brew_latest'
+github "boxen",      "3.11.1"
 
 # Support for default hiera data in modules
 
@@ -98,11 +95,11 @@ github "kaleidoscope", "1.0.5", :repo => "ngs/puppet-kaleidoscope"
 github "karabiner", "1.0.8"
 github "memcached", "2.0.0"
 github "mongodb", "2.6.1"
-github "mysql", "2.1.2"
+github "mysql", "2.2.0"
 github "nsq", "1.0.1"
 github "osx",        "2.8.0"
 github "php", "2.0.1"
-github "postgresql", "4.0.1"
+github "postgresql", "4.1.0"
 github "property_list_key", "0.1.0"
 github "python", "2.0.1"
 github "redis", "3.2.0"

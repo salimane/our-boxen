@@ -11,18 +11,16 @@ class people::salimane {
   include android::studio
   include atom
   atom::package { [
-    'auto-detect-indentation', 'atom-alignment',
-    'auto-update-packages', 'autocomplete-plus', 'color-picker',
-    'command-logger', 'compare-files',
-    'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'go-rename',
-    'git-plus', 'language-docker', 'language-protobuf', 'go-plus',
-    'language-gradle', 'language-jade', 'language-nginx',
-    'language-puppet', 'language-swift',
-    'linter', 'linter-puppet-lint', 'markdown-format',
-    'minimap', 'minimap-git-diff', 'monokai', 'package-sync',
-    'pdf-view', 'pretty-json',
-    'quotes', 'save-session', 'sort-lines', 'toggle-quotes',
-    'Sublime-Style-Column-Selection'
+    'Sublime-Style-Column-Selection', 'atom-alignment',
+    'auto-detect-indentation',
+    'auto-update-packages', 'color-picker', 'command-logger', 'compare-files',
+    'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'fixmyjs',
+    'git-plus', 'go-plus', 'go-rename', 'jshint', 'language-docker',
+    'language-gradle', 'language-jade', 'language-nginx', 'language-protobuf',
+    'language-puppet', 'language-swift', 'linter', 'linter-puppet-lint',
+    'markdown-format', 'minimap', 'minimap-git-diff', 'monokai',
+    'package-sync', 'pdf-view', 'pretty-json', 'quotes', 'save-session',
+    'sort-lines', 'toggle-quotes'
     ]:
   }
 

@@ -103,7 +103,7 @@ ruby::rbenv::plugins:
     ensure: v1.0.0
     source: rkh/rbenv-whatis
   rbenv-update:
-    ensure: f0ff6e3264c45fdf2a8064205db6c8b3a707894e
+    ensure: 1961fa180280bb50b64cbbffe6a5df7cf70f5e50
     source: rkh/rbenv-update
   rbenv-default-gems:
     ensure: v1.0.0
@@ -117,15 +117,15 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "2.2.3"
-ruby::build::ensure: bd222051df1240f77f4b0f24bd809812b9357867
-ruby::rbenv::ensure: 75a1dd25cd74a03255dc7fdc5fad77ea13e261e0
+ruby::build::ensure: 8c41f0d71453238a16cf896365c359c9ea181671
+ruby::rbenv::ensure: f0e8bdcdafe1fc19e020ab781efcdffdcd315415
 # Use default ports for databases
 # mysql::config::port: 3306
 # postgresql::port: 5432
 
 appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: 677fafb8e48537603607b06f6de49674c5cb0995
+homebrew::min_revision: 973867c8b8b58404cf1a45fb48508920fc9475ff
 homebrew::repo: 'homebrew/homebrew'
 osxfuse::version: 2.7.3
 pycharm::version: 4.0.1
@@ -136,5 +136,5 @@ virtualbox::patch_level: 104061
 virtualbox::version: 5.0.10
 git::package: 'git'
 git::version: '2.6.3'
-nodejs::build::ensure: c5fac71ef20a85841c7fd76f751ed11e2f8625ec
+nodejs::build::ensure: c7b5b096f8ccadf8061a0c79af98b10c5f2f15b8
 nodejs::nodenv::ensure: 1039d2e48e253d9f1a11c5132b433510565e60cd
