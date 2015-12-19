@@ -41,7 +41,6 @@ boxen::personal::osx_apps:
   # - google-hangouts error
   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
   # - gpgtools error
-  # - heroku-toolbelt # http://heroku.com/ error
   - hipchat
   - imageoptim
   - imgur
@@ -86,6 +85,7 @@ boxen::personal::homebrew_packages:
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - go
+  - heroku
   - homebrew/fuse/ntfs-3g
   - htop-osx
   - jq

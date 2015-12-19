@@ -228,7 +228,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
-    redis (3.2.0)
+    redis (4.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -298,17 +298,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.4.2)
+    inifile (1.4.3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
-    stdlib (4.9.0)
+    stdlib (4.9.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-vcsrepo
   specs:
-    vcsrepo (1.3.1)
+    vcsrepo (1.3.2)
 
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
@@ -342,7 +342,7 @@ DEPENDENCIES
   homebrew (= 2.0.0)
   hub (= 1.4.1)
   imagemagick (= 1.3.0)
-  inifile (= 1.4.2)
+  inifile (= 1.4.3)
   java (= 1.8.4)
   jenkins (= 1.2.0)
   jmeter (= 0.1.5)
@@ -363,17 +363,17 @@ DEPENDENCIES
   postgresql (= 4.1.0)
   property_list_key (= 0.1.0)
   python (= 2.0.1)
-  redis (= 3.2.0)
+  redis (= 4.0.0)
   repository (= 2.4.1)
   riak (= 1.1.3)
   ruby (>= 0)
   solr (= 1.0.4)
   statsd (= 1.0.3)
-  stdlib (= 4.9.0)
+  stdlib (= 4.9.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
   vagrant (= 3.3.3)
-  vcsrepo (= 1.3.1)
+  vcsrepo (= 1.3.2)
   virtualbox (= 1.0.13)
   xquartz (= 1.2.1)
   zeromq (= 1.0.0)

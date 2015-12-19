@@ -109,7 +109,6 @@
 #   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
 #   - gpgtools
 #   - graphviz # http://www.graphviz.org/
-#   - heroku-toolbelt # http://heroku.com/
 #   - hipchat
 #   - imageoptim
 #   - imgur
@@ -194,6 +193,7 @@
 #   - elixir
 #   - gist
 #   - go
+#   - heroku
 #   - homebrew/fuse/ntfs-3g
 #   - htop-osx
 #   - httpry
