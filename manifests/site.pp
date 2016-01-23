@@ -61,6 +61,11 @@ node default {
 
   ensure_resource('nodejs::version', $::default_node_version)
   ensure_resource('ruby::version', $::default_ruby_version)
+  ensure_resource('python::version', $::default_python_version)
+  # Set the global version of Python
+  class { 'python::global':
+    version => $::default_python_version
+  }
 
   ruby_gem { 'bundler-*':
     gem          => 'bundler',

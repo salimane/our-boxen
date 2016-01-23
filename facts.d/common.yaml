@@ -8,4 +8,6 @@ homebrew_root: /usr/local
 brewcask_root: /opt/homebrew-cask
 default_ruby_version: '2.3.0'
 default_bundler_version: '1.11.2'
-default_node_version: '5.3.0'
+default_python_version: '2.7.11'
+default_virtualenv_version: '13.1.2'
+default_node_version: '5.5.0'

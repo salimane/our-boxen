@@ -150,7 +150,6 @@ class people::username {
   # }
   # # boxen-base/modules/projects/manifests/trollin.pp
   # class projects::trollin {
-
   #   php::project { 'trollin':
   #     source        => 'boxen/trollin',
   #     elasticsearch => true,
@@ -160,6 +159,38 @@ class people::username {
   #     php           => '5.3.23',
   #   }
   # } # https://github.com/boxen/puppet-php
+  # $python_version = '2.7.11'
+  # # Set the global default python (auto-installs it if it can)
+  # class { 'python::global':
+  #   version => $python_version
+  # }
+  # ensure_resource('python::version', $python_version) # install a python version
+  # # Install Python versions
+  # python::version { $python_version: }
+  #
+  # # ensure a certain python version is used in a dir
+  # python::local { '/path/to/some/project':
+  #   version => $python_version
+  # }
+  # # Install the latest version of virtualenv
+  # python::package { "virtualenv for ${python_version}":
+  #   package => 'virtualenv',
+  #   python  => $python_version,
+  # }
+  #
+  # # Installing a pyenv plugin
+  # python::plugin { 'pyenv-virtualenvwrapper':
+  #   ensure => 'v20140122',
+  #   source => 'yyuu/pyenv-virtualenvwrapper',
+  # }
+  # # Running a package script
+  # # pyenv-installed gems cannot be run in the boxen installation environment which uses the system
+  # # python. The environment must be cleared (env -i) so an installed python (and packages) can be used in a new shell.
+  # exec { "env -i bash -c 'source /opt/boxen/env.sh && PYENV_VERSION=${python_version} virtualenv venv'":
+  #   provider => 'shell',
+  #   cwd => "~/src/project",
+  #   require => Python::Package["virtualenv for ${python_version}"],
+  # }
   # include postgresql
   # postgresql::db { 'mydb': }
   # # manage OS X plist files, e.g. disable Gatekeeper in 10.8

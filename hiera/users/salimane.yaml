@@ -15,7 +15,6 @@ boxen::personal::includes:
   - hub
   - imagemagick # http://www.imagemagick.org/
   - nginx # http://wiki.nginx.org/Main
-  - python
   - ruby
   - sysctl::ipforwarding
   - vagrant

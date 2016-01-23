@@ -34,7 +34,6 @@ boxen::personal::includes:
   - libpng
   - openssl
   - pcre
-  - python
   - ruby
   - screen
   - vagrant
@@ -116,25 +115,27 @@ ruby::rbenv::plugins:
     source: sstephenson/rbenv-vars
 ruby::version::alias:
   2.0.0: 2.0.0-p645
-ruby::global::version: "2.3.0"
-ruby::build::ensure: 8f1a39048212cd419e3363da9ad3796d3e4ef64a
-ruby::rbenv::ensure: a95ccd09a2c7cff435d915756abd5a2fe096fb9d
+ruby::global::version: "%{hiera('::default_ruby_version')}"
+ruby::build::ensure: 3b0714a750f62b4d275d73f9d86bd753d5ffe78d
+ruby::rbenv::ensure: c38833179b368fc0ec044fdd9cdcba225e3fcdd2
+
 # Use default ports for databases
 # mysql::config::port: 3306
 # postgresql::port: 5432
 
-appcode2::version: '3.0.6'
 charles::version: 3.9.3
-homebrew::min_revision: 7d714ac258b986a3bde2045c2b2f478973c9c095
+homebrew::min_revision: 909c93e536aff374673086ef0f6f2118ed739e2c
 homebrew::repo: 'homebrew/homebrew'
-osxfuse::version: 2.7.3
-pycharm::version: 4.0.1
-sourcetree::version: 2.0.5
-thunderbird::version: 32.2.0
 vagrant::version: 1.8.1
-virtualbox::patch_level: 104815
-virtualbox::version: 5.0.12
+virtualbox::patch_level: 105127
+virtualbox::version: 5.0.14
 git::package: 'git'
-git::version: '2.6.4'
-nodejs::build::ensure: 5686bdb103751cd9bb935cee630611589f859c25
-nodejs::nodenv::ensure: 476ad6d652466d67a56e746d38796c645716998a
+git::version: '2.7.0'
+python::pyenv::ensure: 5c5205e172f532a7e7511f86666b1d842198e73a
+python::version::env:
+  Darwin:
+    CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
+    LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
+    PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
+nodejs::build::ensure: 13e979e3b59c319961802eda94fa9b4737ebb00d
+nodejs::nodenv::ensure: afbeab70b4aa60d00af1c6d8c8941d190f39bdb6

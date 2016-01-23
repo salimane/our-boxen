@@ -38,7 +38,7 @@ github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "brewcask",   "0.0.6"
+github "brewcask",   "0.0.7"
 github "dnsmasq",    "2.0.1"
 github "foreman",    "1.2.0"
 github "gcc",        "3.0.2"
@@ -72,7 +72,6 @@ eval(File.read(people_puppetfile)) if File.exist?(people_puppetfile)
 
 github "alfred", "1.5.0"
 github "android", "1.6.0"
-github "appcode2", "1.0.0"
 github "atom", "1.3.0"
 github "augeas", "1.3.1"
 github "bash", "1.2.0"
@@ -101,7 +100,7 @@ github "osx",        "2.8.0"
 github "php", "2.0.1"
 github "postgresql", "4.1.0"
 github "property_list_key", "0.1.0"
-github "python", "2.0.1"
+github "python", "3.0.2", :repo => "mloberg/puppet-python"
 github "redis", "4.0.0"
 github "riak", "1.1.3"
 github "solr", "1.0.4"
