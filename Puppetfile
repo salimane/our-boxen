@@ -44,7 +44,10 @@ github "foreman",    "1.2.0"
 github "gcc",        "3.0.2"
 github "git",        "2.7.92"
 github "homebrew",   "2.0.0"
-github "hub",        "1.4.1"
+# github "hub",        "1.4.1"
+mod 'hub',
+  :git => "https://github.com/salimane/puppet-hub",
+  :ref => 'homebrew_hub'
 github "inifile",    "1.4.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.6.0"
 github "nodejs",     "5.0.5"
@@ -105,9 +108,13 @@ github "redis", "4.0.0"
 github "riak", "1.1.3"
 github "solr", "1.0.4"
 github "statsd", "1.0.3"
+github "sublime_text", "1.1.1"
 github "sysctl", "1.0.1"
 github "vagrant", "3.3.4"
 github "virtualbox", "1.0.13"
 github "zeromq", "1.0.0"
 github "zookeeper", "1.0.4"
-github "zsh", "1.0.0"
+# github "zsh", "1.0.0"
+mod 'zsh',
+  :git => "https://github.com/salimane/puppet-zsh",
+  :ref => 'latest'

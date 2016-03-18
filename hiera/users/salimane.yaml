@@ -15,6 +15,7 @@ boxen::personal::includes:
   - hub
   - imagemagick # http://www.imagemagick.org/
   - nginx # http://wiki.nginx.org/Main
+  - python
   - ruby
   - sysctl::ipforwarding
   - vagrant
@@ -53,11 +54,10 @@ boxen::personal::osx_apps:
   - licecap # http://www.cockos.com/licecap/
   - macs-fan-control
   # - magican # http://www.magicansoft.com/ error
-  - nmap # error
+  # - nmap # error
   - onyx # http://www.titanium.free.fr/downloadonyx.php
   - opera
   # - osxfuse # http://osxfuse.github.io/ error
-  - packer
   - pgadmin3 # http://www.pgadmin.org/
   - qq
   - quicksilver # http://qsapp.com/index.php
@@ -80,12 +80,14 @@ boxen::personal::osx_apps:
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
   - awscli
+  - bash
+  - coreutils
   - docker
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - go
-  - heroku
-  - homebrew/fuse/ntfs-3g
+  - gprof2dot
+  - heroku-toolbelt
   - htop-osx
   - jq
   - libevent
@@ -94,10 +96,12 @@ boxen::personal::homebrew_packages:
   - mr # http://joeyh.name/code/mr/
   - ncdu
   - openssl
+  - packer
   - pcre
   - pixman # http://pixman.org/
   - pv
   - screen
+  - terraform
   - the_silver_searcher # https://github.com/ggreer/the_silver_searcher
   - tmux # http://tmux.sourceforge.net/
   - tree

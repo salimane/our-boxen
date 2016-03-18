@@ -13,21 +13,20 @@ class people::username {
   # android::extra { 'extra-google-google_play_services' : }
   # include android::doc
   # include android::studio
-  # include appcode2 # http://www.jetbrains.com/objc/index.html
   # include atom
   # atom::package { [
-  # 'auto-detect-indentation', 'atom-alignment',
-  # 'auto-update-packages', 'autocomplete-plus', 'color-picker',
+  # 'auto-detect-indentation',
+  # 'auto-update-packages', 'color-picker',
   # 'command-logger', 'compare-files',
-  # 'editor-stats', 'emmet', 'execute-as-ruby', 'file-icons', 'go-rename',
+  # 'editor-stats', 'emmet', 'file-icons',
   # 'git-plus', 'language-docker', 'language-protobuf', 'go-plus',
-  # 'language-gradle', 'language-jade', 'language-nginx',
-  # 'language-puppet', 'language-swift',
-  # 'linter', 'linter-puppet-lint', 'markdown-format',
-  # 'minimap', 'minimap-git-diff', 'monokai', 'package-sync',
-  # 'pdf-view', 'pretty-json',
+  # 'language-gradle', 'language-nginx', 'language-puppet',
+  # 'language-swift',
+  # 'linter-puppet-lint', 'pretty-json',
+  # 'linter', 'markdown-format',
+  # 'minimap', 'monokai',
   # 'quotes', 'save-session', 'sort-lines', 'toggle-quotes',
-  # 'Sublime-Style-Column-Selection'
+  # 'atom-alignment',
   #   ]:
   # }
   # include btsync # http://labs.bittorrent.com/experiments/sync.html
@@ -150,6 +149,7 @@ class people::username {
   # }
   # # boxen-base/modules/projects/manifests/trollin.pp
   # class projects::trollin {
+
   #   php::project { 'trollin':
   #     source        => 'boxen/trollin',
   #     elasticsearch => true,
@@ -159,6 +159,35 @@ class people::username {
   #     php           => '5.3.23',
   #   }
   # } # https://github.com/boxen/puppet-php
+  # include postgresql
+  # postgresql::db { 'mydb': }
+  # # manage OS X plist files, e.g. disable Gatekeeper in 10.8
+  # property_list_key { 'Disable Gatekeeper':
+  #   ensure => present,
+  #   path   => '/var/db/SystemPolicy-prefs.plist',
+  #   key    => 'enabled',
+  #   value  => 'no',
+  # }
+  # include redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
+  # repository { # clone some code repositories to some folder
+  #   '/path/to/code':
+  #     source   => 'user/repo', #short hand for github repos
+  #     provider => 'git';
+  #   'my emacs config':
+  #     source   => 'git://github.com/wfarr/.emacs.d.git',
+  #     path     => '/etc/emacs.d',
+  #     provider => 'git',
+  # }
+  # include riak
+  # class { 'ruby::global': # Set the global default ruby (auto-installs it if it can)
+  #   version => '2.2.3'
+  # }
+  # ensure_resource('ruby::version', '2.2.3') # install a ruby version
+  # ruby::gem { "bundler for ${version}": # ensure a gem is installed for a certain ruby version
+  #   gem     => 'bundler',
+  #   ruby    => "2.2.3",
+  #   version => '~> 1.10.6'
+  # }
   # $python_version = '2.7.11'
   # # Set the global default python (auto-installs it if it can)
   # class { 'python::global':
@@ -190,35 +219,6 @@ class people::username {
   #   provider => 'shell',
   #   cwd => "~/src/project",
   #   require => Python::Package["virtualenv for ${python_version}"],
-  # }
-  # include postgresql
-  # postgresql::db { 'mydb': }
-  # # manage OS X plist files, e.g. disable Gatekeeper in 10.8
-  # property_list_key { 'Disable Gatekeeper':
-  #   ensure => present,
-  #   path   => '/var/db/SystemPolicy-prefs.plist',
-  #   key    => 'enabled',
-  #   value  => 'no',
-  # }
-  # include redis # ENV['BOXEN_REDIS_PORT'], ENV['BOXEN_REDIS_URL']
-  # repository { # clone some code repositories to some folder
-  #   '/path/to/code':
-  #     source   => 'user/repo', #short hand for github repos
-  #     provider => 'git';
-  #   'my emacs config':
-  #     source   => 'git://github.com/wfarr/.emacs.d.git',
-  #     path     => '/etc/emacs.d',
-  #     provider => 'git',
-  # }
-  # include riak
-  # class { 'ruby::global': # Set the global default ruby (auto-installs it if it can)
-  #   version => '2.2.3'
-  # }
-  # ensure_resource('ruby::version', '2.2.3') # install a ruby version
-  # ruby::gem { "bundler for ${version}": # ensure a gem is installed for a certain ruby version
-  #   gem     => 'bundler',
-  #   ruby    => "2.2.3",
-  #   version => '~> 1.10.6'
   # }
   # include solr
   # include statsd # https://github.com/boxen/puppet-statsd

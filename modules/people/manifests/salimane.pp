@@ -2,11 +2,6 @@
 class people::salimane {
   # include android::platform_tools
   include android::sdk
-  android::version { '23':
-    ensure  => present,
-    options => ['platform', 'add_on'],
-  }
-  android::build_tools { '21.1.2': }
   # include android::tools
   include android::studio
   include atom
@@ -18,10 +13,15 @@ class people::salimane {
     'git-plus', 'go-plus', 'go-rename', 'jshint', 'language-docker',
     'language-gradle', 'language-jade', 'language-nginx', 'language-protobuf',
     'language-puppet', 'language-swift', 'linter', 'linter-puppet-lint',
-    'markdown-format', 'minimap', 'minimap-git-diff', 'monokai',
+    'minimap', 'minimap-git-diff', 'monokai',
     'package-sync', 'pdf-view', 'pretty-json', 'quotes', 'save-session',
     'sort-lines', 'toggle-quotes'
     ]:
+  }
+
+  include sublime_text
+  sublime_text::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
   }
 
   osx::recovery_message { 'If this Mac is found, please call +4915732675528': }

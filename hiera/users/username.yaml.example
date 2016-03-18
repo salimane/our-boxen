@@ -140,7 +140,6 @@
 #   - opera
 #   - opera-mobile-emulator
 #   - osxfuse # http://osxfuse.github.io/
-#   - packer
 #   - parallels-desktop
 #   - pgadmin3 # http://www.pgadmin.org/
 #   - phantomjs
@@ -193,7 +192,8 @@
 #   - elixir
 #   - gist
 #   - go
-#   - heroku
+#   - gprof2dot
+#   - heroku-toolbelt
 #   - homebrew/fuse/ntfs-3g
 #   - htop-osx
 #   - httpry
@@ -210,6 +210,7 @@
 #   - mtr
 #   - ncdu
 #   - notmuch
+#   - packer
 #   - pcre
 #   - pixman # http://pixman.org/
 #   - protobuf
@@ -219,6 +220,7 @@
 #   - screen
 #   - spark
 #   - swig # http://www.swig.org/
+#   - terraform
 #   - terminal-notifier
 #   - the_silver_searcher
 #   - tmux # http://tmux.sourceforge.net/
