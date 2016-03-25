@@ -126,7 +126,7 @@ ruby::rbenv::ensure: 29b4da77370af0a3413dce00a72c7631302a2b25
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: 7e6527114f631ff8914e69a911a5d11c40c0c842
+homebrew::min_revision: 687b222dfacadfdf5c214523c5854f05d56b812a
 homebrew::repo: 'homebrew/homebrew'
 sublime_text::build: 3103
 sublime_text::package_control_ensure: '5643f4fa9a335a4591482a8ecdf6e0d7413fbaa1'
@@ -136,7 +136,7 @@ virtualbox::patch_level: 105871
 virtualbox::version: 5.0.16
 git::package: 'git'
 git::version: '2.7.4'
-python::pyenv::ensure: 12069a1118b91b14bb0228353206cc15227d14c0
+python::pyenv::ensure: 9c12b302ebe6948ee90b3741e6ab0f178931c964
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
