@@ -36,11 +36,6 @@
 #   - osx::universal_access::enable_scrollwheel_zoom
 #
 #   - atom
-#   - chrome
-#   - chrome::beta
-#   - chrome::canary
-#   - chrome::chromium
-#   - chrome::dev
 #   - clojure # http://clojure.org/
 #   - dnsmasq
 #   - eclipse::ggts
@@ -103,6 +98,10 @@
 #   - flux # http://justgetflux.com/
 #   - gfxcardstatus
 #   - gimp # http://www.gimp.org/
+#   - google-chrome
+#   - google-chrome-beta
+#   - google-chrome-canary
+#   - google-chrome-dev
 #   - github-desktop # https://desktop.github.com/
 #   - google-drive
 #   - google-hangouts
@@ -179,6 +178,7 @@
 #   - webstorm
 #   - wkhtmltopdf
 #   - wuala # https://www.wuala.com/
+#   - xccello # http://lingsdesigns.com/xccello/ trello app
 #
 # boxen::personal::homebrew_packages:
 #   - automake

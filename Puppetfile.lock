@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/salimane/puppet-hub
-  ref: homebrew_hub
-  sha: 0870f1ec2b81f3f0acfb7ccbe7dfb72d58114860
-  specs:
-    hub (0.0.1)
-
-GIT
   remote: https://github.com/salimane/puppet-ruby
   ref: plugin
   sha: a2ed663f77ee171259f3f70805f0fbf0b4905e03
@@ -65,11 +58,6 @@ GITHUBTARBALL
     charles (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-clojure
   specs:
     clojure (1.3.0)
@@ -127,12 +115,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.8.0)
+    git (2.8.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (2.0.0)
+    homebrew (2.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-hub
+  specs:
+    hub (1.4.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
@@ -227,7 +220,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
-    redis (4.0.0)
+    redis (4.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -329,7 +322,6 @@ DEPENDENCIES
   brewcask (= 0.0.7)
   btsync (= 1.0.0)
   charles (= 1.1.0)
-  chrome (= 1.2.0)
   clojure (= 1.3.0)
   dnsmasq (= 2.0.1)
   docker (= 1.0.0)
@@ -341,9 +333,9 @@ DEPENDENCIES
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   gdb (= 1.0.0)
-  git (= 2.8.0)
-  homebrew (= 2.0.0)
-  hub (>= 0)
+  git (= 2.8.1)
+  homebrew (= 2.0.2)
+  hub (= 1.4.2)
   imagemagick (= 1.3.0)
   inifile (= 1.5.0)
   java (= 1.8.4)
@@ -366,7 +358,7 @@ DEPENDENCIES
   postgresql (= 4.1.0)
   property_list_key (= 0.1.0)
   python (= 3.0.2)
-  redis (= 4.0.0)
+  redis (= 4.0.1)
   repository (= 2.4.1)
   riak (= 1.1.3)
   ruby (>= 0)

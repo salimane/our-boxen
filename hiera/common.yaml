@@ -73,7 +73,7 @@ boxen::personal::homebrew_packages:
   - awscli
   - ctags
   - gist
-  - the_silver_searcher # https://github.com/ggreer/the_silver_searcher
+  - the_silver_searcher
   - jq
   - keybase
 
@@ -102,7 +102,7 @@ ruby::rbenv::plugins:
     ensure: v1.0.0
     source: rkh/rbenv-whatis
   rbenv-update:
-    ensure: 1961fa180280bb50b64cbbffe6a5df7cf70f5e50
+    ensure: f0ff6e3264c45fdf2a8064205db6c8b3a707894e
     source: rkh/rbenv-update
   rbenv-default-gems:
     ensure: v1.0.0
@@ -116,7 +116,7 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "%{hiera('::default_ruby_version')}"
-ruby::build::ensure: 522f3ba0e7ed15900271b2b55986f2c499819a2d
+ruby::build::ensure: d7668be237038bf2fb2e5cb2fadff91d33c515d4
 ruby::rbenv::ensure: 29b4da77370af0a3413dce00a72c7631302a2b25
 
 # Use default ports for databases
@@ -126,8 +126,9 @@ ruby::rbenv::ensure: 29b4da77370af0a3413dce00a72c7631302a2b25
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: 687b222dfacadfdf5c214523c5854f05d56b812a
-homebrew::repo: 'homebrew/homebrew'
+homebrew::min_revision: '36b2af2e0f5a72f0eccdec0c929a89188dc0f0dc'
+homebrew::repo: 'homebrew/brew'
+homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
 sublime_text::package_control_ensure: '5643f4fa9a335a4591482a8ecdf6e0d7413fbaa1'
 sublime_text::package_control_source: 'wbond/package_control'
@@ -135,12 +136,12 @@ vagrant::version: 1.8.1
 virtualbox::patch_level: 105871
 virtualbox::version: 5.0.16
 git::package: 'git'
-git::version: '2.7.4'
-python::pyenv::ensure: 9c12b302ebe6948ee90b3741e6ab0f178931c964
+git::version: '2.8.1'
+python::pyenv::ensure: d594bcadb34fbb33a92b265c5ead56d4ab4fcf06
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: 35dba5fd890c4531f0ee87e47250a755f74af243
+nodejs::build::ensure: 4edb7c94c2b85fc80b8d1794a6e632219af2acdf
 nodejs::nodenv::ensure: ed8c782b4cf31e6425e2b45da7edf3b58660c4f8

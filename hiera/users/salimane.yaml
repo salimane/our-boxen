@@ -6,7 +6,6 @@ boxen::personal::includes:
   - osx::finder::show_all_on_desktop
 
   - atom
-  - chrome::beta
   - dnsmasq
   - foreman # https://github.com/ddollar/foreman
   - gdb
@@ -38,6 +37,7 @@ boxen::personal::osx_apps:
   - firefox
   - gimp # http://www.gimp.org/
   - github-desktop # https://desktop.github.com/
+  - google-chrome
   # - google-hangouts error
   - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
   # - gpgtools error
@@ -76,6 +76,7 @@ boxen::personal::osx_apps:
   - tunnelblick # http://code.google.com/p/tunnelblick/
   - vlc # http://www.videolan.org/vlc/index.html
   # - wkhtmltopdf
+  - xccello # http://lingsdesigns.com/xccello/ trello app
 
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
@@ -86,6 +87,8 @@ boxen::personal::homebrew_packages:
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - go
+  - gpg
+  - gpg-agent
   - gprof2dot
   - heroku-toolbelt
   - htop-osx
@@ -102,7 +105,7 @@ boxen::personal::homebrew_packages:
   - pv
   - screen
   - terraform
-  - the_silver_searcher # https://github.com/ggreer/the_silver_searcher
+  - the_silver_searcher
   - tmux # http://tmux.sourceforge.net/
   - tree
   - watch

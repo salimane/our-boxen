@@ -30,6 +30,10 @@ class people::salimane {
   class {'osx::dock::icon_size' : size => 36}
   class {'osx::dock::position' : position => 'right'}
 
+  ensure_resource('homebrew::tap', [
+    'homebrew/command-not-found']
+  )
+
   ensure_resource('ruby::version', '2.2.3') # install a ruby version
 
   $dotfiles = "${boxen::config::srcdir}/dotfiles"
