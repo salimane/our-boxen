@@ -90,7 +90,7 @@ boxen::personal::homebrew_packages:
   - gpg
   - gpg-agent
   - gprof2dot
-  - heroku-toolbelt
+  - heroku
   - htop-osx
   - jq
   - libevent
