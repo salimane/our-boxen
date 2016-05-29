@@ -47,16 +47,13 @@ github "homebrew",   "2.0.2"
 github "hub",        "1.4.2"
 github "inifile",    "1.5.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.7.0"
-github "nodejs",     "5.0.5"
+github "nodejs",     "5.0.7"
 github "openssl",    "1.0.0"
 github "phantomjs",  "3.0.0"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.4.1"
 github "vcsrepo",    "1.3.2", :repo => "puppetlabs/puppetlabs-vcsrepo"
-# github "ruby",       "8.5.2"
-mod 'ruby',
-  :git => "https://github.com/salimane/puppet-ruby",
-  :ref => 'plugin'
+github "ruby",       "8.5.6"
 github "stdlib",     "4.9.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.2.1"

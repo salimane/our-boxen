@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/salimane/puppet-ruby
-  ref: plugin
-  sha: a2ed663f77ee171259f3f70805f0fbf0b4905e03
-  specs:
-    ruby (0.0.1)
-
-GIT
   remote: https://github.com/salimane/puppet-zsh
   ref: latest
   sha: 3bbf664e990f5acc4b09ad49636283b4c30f0e10
@@ -175,7 +168,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (5.0.5)
+    nodejs (5.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-nsq
@@ -231,6 +224,11 @@ GITHUBTARBALL
   remote: boxen/puppet-riak
   specs:
     riak (1.1.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-ruby
+  specs:
+    ruby (8.5.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-solr
@@ -348,7 +346,7 @@ DEPENDENCIES
   mongodb (= 2.6.1)
   mysql (= 2.2.2)
   nginx (= 1.7.0)
-  nodejs (= 5.0.5)
+  nodejs (= 5.0.7)
   nsq (= 1.0.1)
   openssl (= 1.0.0)
   osx (= 2.8.0)
@@ -361,7 +359,7 @@ DEPENDENCIES
   redis (= 4.0.1)
   repository (= 2.4.1)
   riak (= 1.1.3)
-  ruby (>= 0)
+  ruby (= 8.5.6)
   solr (= 1.0.4)
   statsd (= 1.0.3)
   stdlib (= 4.9.1)
