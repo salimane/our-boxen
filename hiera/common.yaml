@@ -107,7 +107,7 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "%{hiera('::default_ruby_version')}"
-ruby::build::ensure: 3304f96296c9912eaee27347e87e93a3e8fc5a29
+ruby::build::ensure: 75dcbfb178449398deeee7cb71465f7de5c2a287
 ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
 
 # Use default ports for databases
@@ -117,7 +117,7 @@ ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: 'adc293637f58993bb52792d664cc38bf865eeab4'
+homebrew::min_revision: '656c713d6c549a1ae1dc25cdc1f9bb887dfd8440'
 homebrew::repo: 'homebrew/brew'
 homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
@@ -128,11 +128,11 @@ virtualbox::patch_level: 106931
 virtualbox::version: 5.0.20
 git::package: 'git'
 git::version: '2.8.3'
-python::pyenv::ensure: 75fd97803d4cc5b73dd902ab61f5050e942d09d8
+python::pyenv::ensure: 4c654d703e1a8d43fab87d30dc9ef67b613104c2
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: 36a9e893c20fbac5e08c037555b56aee5f463b32
+nodejs::build::ensure: f47f7ad436b6c57e00db27e2c7b5d5799bdefd96
 nodejs::nodenv::ensure: ed8c782b4cf31e6425e2b45da7edf3b58660c4f8
