@@ -1,9 +1,5 @@
 #
 class people::salimane {
-  # include android::platform_tools
-  include android::sdk
-  # include android::tools
-  include android::studio
   include atom
   atom::package { [
     'Sublime-Style-Column-Selection', 'atom-alignment',
@@ -31,7 +27,11 @@ class people::salimane {
   class {'osx::dock::position' : position => 'right'}
 
   ensure_resource('homebrew::tap', [
-    'homebrew/command-not-found']
+    'homebrew/command-not-found',
+    'caskroom/versions',
+    'caskroom/fonts',
+    'caskroom/eid'
+    ]
   )
 
   ensure_resource('ruby::version', '2.2.3') # install a ruby version

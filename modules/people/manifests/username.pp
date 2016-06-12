@@ -1,18 +1,5 @@
 #
 class people::username {
-
-  # include android::ndk
-  # include android::platform_tools
-  # include android::sdk
-  # include android::tools
-  # android::build_tools { '18': }
-  # # install 18 version for all
-  # android::version { '18':
-  #   options => ['platform', 'add_on', 'system_image', 'sample']
-  # }
-  # android::extra { 'extra-google-google_play_services' : }
-  # include android::doc
-  # include android::studio
   # include atom
   # atom::package { [
   # 'auto-detect-indentation',

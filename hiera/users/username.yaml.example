@@ -73,6 +73,7 @@
 #   - adium # https://adium.im/
 #   - adobe-creative-cloud
 #   - alfred
+#   - android-studio
 #   - apache-couchdb
 #   - appcleaner # http://www.freemacsoft.net/appcleaner/
 #   - appcode # http://www.jetbrains.com/objc/index.html
@@ -179,8 +180,10 @@
 #   - wkhtmltopdf
 #   - wuala # https://www.wuala.com/
 #   - xccello # http://lingsdesigns.com/xccello/ trello app
+#   - xquartz
 #
 # boxen::personal::homebrew_packages:
+#   - android-sdk
 #   - automake
 #   - awscli
 #   - cmake
@@ -192,6 +195,8 @@
 #   - elixir
 #   - gist
 #   - go
+#   - gnupg # gpg
+#   - gpg-agent
 #   - gprof2dot
 #   - heroku
 #   - homebrew/fuse/ntfs-3g

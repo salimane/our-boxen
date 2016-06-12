@@ -68,7 +68,6 @@ eval(File.read(people_puppetfile)) if File.exist?(people_puppetfile)
 
 
 github "alfred", "1.5.0"
-github "android", "1.6.0"
 github "atom", "1.3.0"
 github "augeas", "1.3.1"
 github "bash", "1.2.0"
@@ -107,7 +106,4 @@ github "vagrant", "3.3.4"
 github "virtualbox", "1.0.13"
 github "zeromq", "1.0.0"
 github "zookeeper", "1.0.4"
-# github "zsh", "1.0.0"
-mod 'zsh',
-  :git => "https://github.com/salimane/puppet-zsh",
-  :ref => 'latest'
+github "zsh", "1.0.1"

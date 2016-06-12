@@ -24,6 +24,7 @@ boxen::personal::includes:
 # driven by homebrew-cask http://caskroom.io/search
 boxen::personal::osx_apps:
   - adium # https://adium.im/
+  - android-studio
   - appcleaner # http://www.freemacsoft.net/appcleaner/
   - archiver
   - arduino
@@ -77,9 +78,11 @@ boxen::personal::osx_apps:
   - vlc # http://www.videolan.org/vlc/index.html
   # - wkhtmltopdf
   - xccello # http://lingsdesigns.com/xccello/ trello app
+  - xquartz
 
 # driven by homebrew http://brew.sh/
 boxen::personal::homebrew_packages:
+  - android-sdk
   - awscli
   - bash
   - coreutils
@@ -87,7 +90,7 @@ boxen::personal::homebrew_packages:
   - docker-compose # https://docs.docker.com/compose/
   - docker-machine # https://docs.docker.com/machine/
   - go
-  - gpg
+  - gnupg # gpg
   - gpg-agent
   - gprof2dot
   - heroku
