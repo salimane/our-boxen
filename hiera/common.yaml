@@ -117,22 +117,22 @@ ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: '6367508454ccd53d742f104d87ac8347efa7f441'
+homebrew::min_revision: '96cbce015e0b327bd7d30fc101cbd25452cd2fd8'
 homebrew::repo: 'homebrew/brew'
 homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
 sublime_text::package_control_ensure: '5643f4fa9a335a4591482a8ecdf6e0d7413fbaa1'
 sublime_text::package_control_source: 'wbond/package_control'
-vagrant::version: 1.8.1
-virtualbox::patch_level: 106931
-virtualbox::version: 5.0.20
+vagrant::version: 1.8.4
+virtualbox::patch_level: 108108
+virtualbox::version: 5.0.22
 git::package: 'git'
-git::version: '2.8.4'
-python::pyenv::ensure: aa7b6420ce4c2c80adb612f2b9b3de7ac80aad80
+git::version: '2.9.0'
+python::pyenv::ensure: a300254841bfd622728681d2814964b45c46f255
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: f47f7ad436b6c57e00db27e2c7b5d5799bdefd96
+nodejs::build::ensure: e9ae80de4653c222e9aafd82d78cbd28e012c0c6
 nodejs::nodenv::ensure: ed8c782b4cf31e6425e2b45da7edf3b58660c4f8

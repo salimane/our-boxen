@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem "boxen",                  "~> 2.8.0"
+# gem "boxen",                  "~> 2.8.0"
+gem "boxen",
+  git: 'https://github.com/salimane/boxen.git',
+  ref: 'sierra'
 gem "hiera",                  "~> 1.3.4"
 gem "librarian-puppet",       "~> 1.0.9"
 gem "puppet",                 "3.8.1"
