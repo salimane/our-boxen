@@ -96,6 +96,7 @@ boxen::personal::homebrew_packages:
   - heroku
   - htop-osx
   - jq
+  - keybase
   - libevent
   - libpng
   - moreutils # http://joeyh.name/code/moreutils/

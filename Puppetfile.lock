@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-docker
   specs:
-    docker (1.0.0)
+    docker (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dockutil
@@ -314,7 +314,7 @@ DEPENDENCIES
   charles (= 1.1.0)
   clojure (= 1.3.0)
   dnsmasq (= 2.0.1)
-  docker (= 1.0.0)
+  docker (= 1.1.0)
   dockutil (= 0.2.1)
   eclipse (= 2.5.0)
   elasticsearch (= 2.9.0)

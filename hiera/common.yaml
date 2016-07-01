@@ -107,7 +107,7 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "%{hiera('::default_ruby_version')}"
-ruby::build::ensure: 3f6d068bac72bb226f2e17b759ff5b8001dc4d35
+ruby::build::ensure: d0a321922d1b0907f91b76ae995745bd1da68426
 ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
 
 # Use default ports for databases
@@ -117,22 +117,22 @@ ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: '96cbce015e0b327bd7d30fc101cbd25452cd2fd8'
+homebrew::min_revision: 'fbac41d95bc7d9500eed195b46aba2a95ed89b18'
 homebrew::repo: 'homebrew/brew'
 homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
 sublime_text::package_control_ensure: '5643f4fa9a335a4591482a8ecdf6e0d7413fbaa1'
 sublime_text::package_control_source: 'wbond/package_control'
 vagrant::version: 1.8.4
-virtualbox::patch_level: 108108
-virtualbox::version: 5.0.22
+virtualbox::patch_level: 108355
+virtualbox::version: 5.0.24
 git::package: 'git'
 git::version: '2.9.0'
-python::pyenv::ensure: a300254841bfd622728681d2814964b45c46f255
+python::pyenv::ensure: c803130a9d59d5f418928fb60d401ad5c84621a9
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: e9ae80de4653c222e9aafd82d78cbd28e012c0c6
+nodejs::build::ensure: 0427ff656562d41edb4a2e573f9971c48c2c1bdb
 nodejs::nodenv::ensure: ed8c782b4cf31e6425e2b45da7edf3b58660c4f8

@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# gem "boxen",                  "~> 2.8.0"
+# gem "boxen",                  "~> 2.9.0"
 gem "boxen",
   git: 'https://github.com/salimane/boxen.git',
   ref: 'sierra'
