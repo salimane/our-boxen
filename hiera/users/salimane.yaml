@@ -28,7 +28,6 @@ boxen::personal::osx_apps:
   - appcleaner # http://www.freemacsoft.net/appcleaner/
   - archiver
   - arduino
-  - boot2docker-status # http://boot2docker-status.nickgartmann.com/
   - caffeine # http://lightheadsw.com/caffeine/
   - calibre # http://calibre-ebook.com/
   - ccleaner # http://www.piriform.com/mac/ccleaner
@@ -40,7 +39,6 @@ boxen::personal::osx_apps:
   - github-desktop # https://desktop.github.com/
   - google-chrome
   # - google-hangouts error
-  - google-notifier # http://toolbar.google.com/gmail-helper/notifier_mac.html
   # - gpgtools error
   - hipchat
   - imageoptim
@@ -49,14 +47,12 @@ boxen::personal::osx_apps:
   - invisionsync
   - iterm2
   - java
-  - jenkins-menu
   - lastpass # https://lastpass.com/
   - libreoffice # http://www.libreoffice.org/
   - licecap # http://www.cockos.com/licecap/
   - macs-fan-control
   # - magican # http://www.magicansoft.com/ error
   # - nmap # error
-  - onyx # http://www.titanium.free.fr/downloadonyx.php
   - opera
   # - osxfuse # http://osxfuse.github.io/ error
   - pgadmin3 # http://www.pgadmin.org/
@@ -99,6 +95,7 @@ boxen::personal::homebrew_packages:
   - keybase
   - libevent
   - libpng
+  # - little-snitch
   - moreutils # http://joeyh.name/code/moreutils/
   - mr # http://joeyh.name/code/mr/
   - ncdu
@@ -107,6 +104,7 @@ boxen::personal::homebrew_packages:
   - pcre
   - pixman # http://pixman.org/
   - pv
+  - pwgen
   - screen
   - terraform
   - the_silver_searcher
@@ -114,4 +112,5 @@ boxen::personal::homebrew_packages:
   - tree
   - watch
   - wget
+  - wifi-password
   - xpdf

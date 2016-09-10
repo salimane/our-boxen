@@ -9,7 +9,7 @@ class people::username {
   # 'git-plus', 'language-docker', 'language-protobuf', 'go-plus',
   # 'language-gradle', 'language-nginx', 'language-puppet',
   # 'language-swift',
-  # 'linter-puppet-lint', 'pretty-json',
+  # 'linter-puppet-lint',
   # 'linter', 'markdown-format',
   # 'minimap', 'monokai',
   # 'quotes', 'save-session', 'sort-lines', 'toggle-quotes',

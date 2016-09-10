@@ -107,8 +107,8 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "%{hiera('::default_ruby_version')}"
-ruby::build::ensure: d0a321922d1b0907f91b76ae995745bd1da68426
-ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
+ruby::build::ensure: 521c2f6dd9ca6885cc3b151c55103edbc12a35fd
+ruby::rbenv::ensure: d0779fc8fb90fb7268d0ee858086e92bcd316787
 
 # Use default ports for databases
 # mysql::config::port: 3306
@@ -117,22 +117,22 @@ ruby::rbenv::ensure: 9fdce5d069946417d481fd878c5c005db5b4539c
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: 'fbac41d95bc7d9500eed195b46aba2a95ed89b18'
+homebrew::min_revision: '4fb691e1759eab70801d58801ed28762e4519897'
 homebrew::repo: 'homebrew/brew'
 homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
-sublime_text::package_control_ensure: '5643f4fa9a335a4591482a8ecdf6e0d7413fbaa1'
+sublime_text::package_control_ensure: '111fa929e065e14254e67d8103ebff877f3a7a00'
 sublime_text::package_control_source: 'wbond/package_control'
-vagrant::version: 1.8.4
-virtualbox::patch_level: 108355
-virtualbox::version: 5.0.24
+vagrant::version: 1.8.5
+virtualbox::patch_level: 110228
+virtualbox::version: 5.1.4
 git::package: 'git'
-git::version: '2.9.0'
-python::pyenv::ensure: c803130a9d59d5f418928fb60d401ad5c84621a9
+git::version: '2.10.0'
+python::pyenv::ensure: a0c5fe42e9c47ab555a703abe0f5c3230cdb6081
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: 0427ff656562d41edb4a2e573f9971c48c2c1bdb
-nodejs::nodenv::ensure: ed8c782b4cf31e6425e2b45da7edf3b58660c4f8
+nodejs::build::ensure: 1f9023f3156f5058ade0d2bff07725f234405955
+nodejs::nodenv::ensure: 6576e9e715ed20e16922088493eef2b0de6a87af

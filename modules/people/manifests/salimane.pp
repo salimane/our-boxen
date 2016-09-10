@@ -10,7 +10,7 @@ class people::salimane {
     'language-gradle', 'language-jade', 'language-nginx', 'language-protobuf',
     'language-puppet', 'language-swift', 'linter', 'linter-puppet-lint',
     'minimap', 'minimap-git-diff', 'monokai',
-    'package-sync', 'pdf-view', 'pretty-json', 'quotes', 'save-session',
+    'package-sync', 'pdf-view', 'quotes', 'save-session',
     'sort-lines', 'toggle-quotes'
     ]:
   }
