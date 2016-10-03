@@ -89,6 +89,7 @@
 #   - cord # http://cord.sourceforge.net/
 #   - dash # http://kapeli.com/dash
 #   - diffmerge # https://sourcegear.com/diffmerge/
+#   - docker # https://docs.docker.com/docker-for-mac/
 #   - dropbox # http://www.dropbox.com/
 #   - eclipse::java # http://www.eclipse.org/
 #   - eclipse::jee
@@ -157,6 +158,7 @@
 #   - slate
 #   - smartgit
 #   - smcfancontrol
+#   - soundcast
 #   - sourcetree # http://www.sourcetreeapp.com/
 #   - spectacle # http://spectacleapp.com/
 #   - spotify # https://www.spotify.com/

@@ -34,6 +34,7 @@ boxen::personal::osx_apps:
   - cinch # http://www.irradiatedsoftware.com/cinch
   - clipmenu # http://www.clipmenu.com/
   - dash # http://kapeli.com/dash
+  - docker # https://docs.docker.com/docker-for-mac/
   - firefox
   - gimp # http://www.gimp.org/
   - github-desktop # https://desktop.github.com/
@@ -64,6 +65,7 @@ boxen::personal::osx_apps:
   - skype
   - slack
   - smartgit
+  - soundcast # cast audio out to chromecast
   - sourcetree
   - spectacle # http://spectacleapp.com/
   - spotify # https://www.spotify.com/
@@ -82,9 +84,7 @@ boxen::personal::homebrew_packages:
   - awscli
   - bash
   - coreutils
-  - docker
   - docker-compose # https://docs.docker.com/compose/
-  - docker-machine # https://docs.docker.com/machine/
   - go
   - gnupg # gpg
   - gpg-agent

@@ -107,8 +107,8 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "%{hiera('::default_ruby_version')}"
-ruby::build::ensure: 521c2f6dd9ca6885cc3b151c55103edbc12a35fd
-ruby::rbenv::ensure: d0779fc8fb90fb7268d0ee858086e92bcd316787
+ruby::build::ensure: 8ef0c34cdb7da6e6e692f4a3110a37f8d302cb4d
+ruby::rbenv::ensure: c7dcaf12593837eeb8d46b69bccf3d28666b728c
 
 # Use default ports for databases
 # mysql::config::port: 3306
@@ -117,22 +117,22 @@ ruby::rbenv::ensure: d0779fc8fb90fb7268d0ee858086e92bcd316787
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: '4fb691e1759eab70801d58801ed28762e4519897'
+homebrew::min_revision: '7d31a70373edae4d8e78d91a4cbc05324bebc3ba'
 homebrew::repo: 'homebrew/brew'
 homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
-sublime_text::package_control_ensure: '111fa929e065e14254e67d8103ebff877f3a7a00'
+sublime_text::package_control_ensure: '915161b7ff80751b09ac064ac0a5469d2773a916'
 sublime_text::package_control_source: 'wbond/package_control'
-vagrant::version: 1.8.5
-virtualbox::patch_level: 110228
-virtualbox::version: 5.1.4
+vagrant::version: 1.8.6
+virtualbox::patch_level: 110634
+virtualbox::version: 5.1.6
 git::package: 'git'
 git::version: '2.10.0'
-python::pyenv::ensure: a0c5fe42e9c47ab555a703abe0f5c3230cdb6081
+python::pyenv::ensure: 80e769e8d6a7bac6381c68c7f0582e2cf18a39fc
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: 1f9023f3156f5058ade0d2bff07725f234405955
+nodejs::build::ensure: a2800ae158ba36758ca6cfe0df17bbead3d90eeb
 nodejs::nodenv::ensure: 6576e9e715ed20e16922088493eef2b0de6a87af
