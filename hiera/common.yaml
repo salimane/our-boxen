@@ -25,7 +25,6 @@ boxen::personal::includes:
   - osx::universal_access::enable_scrollwheel_zoom
 
   - atom
-  - dnsmasq
   - gdb
   - git
   - homebrew # http://mxcl.github.com/homebrew
@@ -39,7 +38,6 @@ boxen::personal::includes:
   - vagrant
   - virtualbox
   - wget
-  - xpdf
 
 # driven by homebrew-cask http://caskroom.io/search
 boxen::personal::osx_apps:
@@ -107,7 +105,7 @@ ruby::rbenv::plugins:
 ruby::version::alias:
   2.0.0: 2.0.0-p645
 ruby::global::version: "%{hiera('::default_ruby_version')}"
-ruby::build::ensure: 8ef0c34cdb7da6e6e692f4a3110a37f8d302cb4d
+ruby::build::ensure: 308c9746e29aeaee38cdc703c1fe10c18b38ca3b
 ruby::rbenv::ensure: c7dcaf12593837eeb8d46b69bccf3d28666b728c
 
 # Use default ports for databases
@@ -117,22 +115,22 @@ ruby::rbenv::ensure: c7dcaf12593837eeb8d46b69bccf3d28666b728c
 charles::version: 3.9.3
 zsh::ensure: latest
 hub::package_name: hub
-homebrew::min_revision: '7d31a70373edae4d8e78d91a4cbc05324bebc3ba'
+homebrew::min_revision: '34f08a9512f86a37af5e95b83f47f5d69c92998c'
 homebrew::repo: 'homebrew/brew'
 homebrew::repo::min_revision: "%{hiera('homebrew::min_revision')}"
 sublime_text::build: 3103
-sublime_text::package_control_ensure: '915161b7ff80751b09ac064ac0a5469d2773a916'
+sublime_text::package_control_ensure: '2bcface6c34544eb5b0258984f2803b7a3c98ffc'
 sublime_text::package_control_source: 'wbond/package_control'
-vagrant::version: 1.8.6
-virtualbox::patch_level: 110634
-virtualbox::version: 5.1.6
+vagrant::version: 1.8.7
+virtualbox::patch_level: 111374
+virtualbox::version: 5.1.8
 git::package: 'git'
-git::version: '2.10.0'
-python::pyenv::ensure: 80e769e8d6a7bac6381c68c7f0582e2cf18a39fc
+git::version: '2.10.2'
+python::pyenv::ensure: 74ba392548ffa107ef77d539b7d58405fe8c9802
 python::version::env:
   Darwin:
     CFLAGS: "-I%{::homebrew::config::installdir}/include -I/opt/X11/include -march=core2 -O3"
     LDFLAGS: "-L%{::homebrew::config::installdir}/lib -L/opt/X11/lib"
     PYTHON_CONFIGURE_OPTS: "--enable-framework --with-readline-dir=%{::homebrew::config::installdir}/opt/readline"
-nodejs::build::ensure: a2800ae158ba36758ca6cfe0df17bbead3d90eeb
+nodejs::build::ensure: 0cdb46efb4fe854e300f60baa94502153f116cd4
 nodejs::nodenv::ensure: 6576e9e715ed20e16922088493eef2b0de6a87af

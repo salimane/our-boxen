@@ -28,6 +28,8 @@ class people::salimane {
 
   ensure_resource('homebrew::tap', [
     'homebrew/command-not-found',
+    'homebrew/dupes',
+    'homebrew/x11',
     'caskroom/versions',
     'caskroom/fonts',
     'caskroom/eid'

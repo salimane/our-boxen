@@ -4,10 +4,10 @@
 # which must be a fact rather than configured with hiera because
 # of how Puppet's custom resource providers work.
 
-homebrew_root: /usr/local/Homebrew
+homebrew_root: /usr/local
 brewcask_root: /opt/homebrew-cask
 default_ruby_version: '2.3.1'
-default_bundler_version: '1.13.0'
+default_bundler_version: '1.13.6'
 default_python_version: '2.7.12'
 default_virtualenv_version: '15.0.3'
-default_node_version: '6.7.0'
+default_node_version: '7.1.0'

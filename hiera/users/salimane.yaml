@@ -6,7 +6,6 @@ boxen::personal::includes:
   - osx::finder::show_all_on_desktop
 
   - atom
-  - dnsmasq
   - foreman # https://github.com/ddollar/foreman
   - gdb
   - git
@@ -105,7 +104,7 @@ boxen::personal::homebrew_packages:
   - pixman # http://pixman.org/
   - pv
   - pwgen
-  - screen
+  - homebrew/dupes/screen
   - terraform
   - the_silver_searcher
   - tmux # http://tmux.sourceforge.net/
@@ -113,4 +112,4 @@ boxen::personal::homebrew_packages:
   - watch
   - wget
   - wifi-password
-  - xpdf
+  - homebrew/x11/xpdf

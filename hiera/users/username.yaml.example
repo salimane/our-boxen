@@ -37,7 +37,6 @@
 #
 #   - atom
 #   - clojure # http://clojure.org/
-#   - dnsmasq
 #   - eclipse::ggts
 #   - elasticsearch # The ENV['BOXEN_ELASTICSEARCH_PORT'], ENV['BOXEN_ELASTICSEARCH_URL']
 #   - erlang # http://www.erlang.org/
@@ -46,7 +45,6 @@
 #   - git
 #   - homebrew # http://mxcl.github.com/homebrew
 #   - hub
-#   - imagemagick # http://www.imagemagick.org/
 #   - jenkins # Browse to http://jenkins.dev. ENV['BOXEN_JENKINS_PORT'], ENV['BOXEN_JENKINS_HOME']
 #   - karabiner
 #   - memcached
@@ -221,7 +219,7 @@
 #   - pstree
 #   - pv
 #   - qt
-#   - screen
+#   - homebrew/dupes/screen
 #   - spark
 #   - swig # http://www.swig.org/
 #   - terraform
@@ -236,4 +234,4 @@
 #   - wget
 #   - wifi-password
 #   - xctool
-#   - xpdf
+#   - homebrew/x11/xpdf
